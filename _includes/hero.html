@@ -1,0 +1,94 @@
+<header class="hero section">
+    <div class="hero__video_wrapper">
+        <video class="hero__video"  autoplay muted loop   src="/assets/video/Banner_04.mp4"></video>
+    </div>
+	<div class="hero__bg hero__bg_home"> </div>
+
+	<div class="section__inner section__inner_hero">
+		<div class="hero__texts">
+		<h1 class="hero__title">{{ page.hero.title }}</h1>	
+		<h2 class="hero__subtitle">{{ page.hero.subtitle }}</h2>	
+			
+		</div>
+		<a class=" cta_hero" href="{{ page.hero.cta-link }}">{{ page.hero.cta }}</a>
+	</div>
+
+
+	<style>
+		
+
+
+.nav {
+	    position: absolute;
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    /*
+    transition: .4s;
+    transition-property:background, box-shaddow;
+    */
+}
+
+.nav.sticky {
+	position:fixed;    
+	background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    color: #454545;
+}
+
+
+.heroed {
+	padding: 2em 0;
+}
+
+.heroed .nav__logo-link {
+	background-image:url(/assets/img/SVG/logo-titled-white.svg);
+	width: 180px;
+}
+
+.heroed .nav__menu-item {
+
+	font-weight: 400;
+}
+
+	</style>
+
+	<script>
+
+		
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+
+
+// Get the header
+var mainTag = document.getElementsByTagName("main")[0];
+var header = document.getElementById('siteNavigation');
+
+// Get the offset position of the navbar
+ 
+
+var viewportOffset = mainTag.getBoundingClientRect();
+// these are relative to the viewport
+var top = viewportOffset.top;
+
+
+  if (top <= 80) {
+    header.classList.add("sticky");
+    header.classList.remove("heroed");
+  } else {
+    header.classList.remove("sticky");
+    header.classList.add("heroed");
+  }
+}
+
+
+
+
+	</script>
+	
+
+</header>

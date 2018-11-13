@@ -1,0 +1,35 @@
+@import "variables";
+
+.intro__title-vr {
+	text-align: center;
+	padding: 0 0 1em;
+
+}
+
+.intro__feature_vr {
+	width: 33.3%;
+}
+
+.intro__description{
+	font-size: $font36;
+	padding: 1em 0;
+	text-align: center;
+}
+
+.intro__icon_large { 
+	width: 250px;
+	height: 250px;
+}
+
+.intro__icon_vr_mobile {
+	background-image: url(/assets/img/icons/vr-mobile.png);
+}
+.intro__icon_vr_show {
+	background-image: url(/assets/img/icons/vr-show-blue.png);
+}
+.intro__icon_vr_presentation {
+	background-image: url(/assets/img/icons/vr-presentation-object.png);
+}
+.intro__icon_vr_presentation {
+	background-image: url(/assets/img/icons/vr-presentation-combo.png);
+}

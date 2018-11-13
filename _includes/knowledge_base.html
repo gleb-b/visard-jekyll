@@ -1,0 +1,54 @@
+
+            <section class="section section_knowledge">
+                <div class="section__inner"> 
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Knowledge Base</h2></div>
+                    </div>
+                    <div class="knowledge clearfix">	
+                        <div class="knowledge__posts">
+                        		<h3>Visard VR Blog</h3>	
+
+
+                                {% for post in   site.posts %} 
+                                {% if forloop.index <= 3 %}
+
+                                <a href="{{ post.url }}" class="post">
+                                    <article class="post__inner">
+
+                                        {% if post.thumbnail  %}
+                                        <div class="post__img" style="background-image:url(/assets/img/posts/{{ post.thumbnail }})"></div>
+                                        {% else   %}
+                                        <div class="post__img post__img_default"  ></div>
+                                        {% endif %}
+                                         
+                                        <time class="post__date" datetime="{{ post.date }}">{{ post.date | date: "%m / %d" }}</time>
+                                        <h2 class="post__title">{{ post.title }}</h2>                                    
+                                    </article> 
+                                </a>
+
+                                {% endif %}
+                                {% endfor %} 
+
+                                <p class="knowledge__blog-link"><a href="{{ site.url }}/blog">Read more in our Blog</a></p>
+
+                        </div>
+                       
+                        <div class="knowledge__materials">
+                        		<h3>Materials</h3>	 
+
+                                <div class="knowledge__material"></div>
+                                <div class="knowledge__material"></div>
+
+                                <div class="knowledge__subscription">
+                                    {% include subscription.html class="subscription_knowledge" title="Sign up for material updates" %}
+                                </div>
+
+
+                        </div>
+
+                     </div>
+                       
+                    </div>
+                    
+                </div>
+            </section>

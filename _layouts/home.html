@@ -1,0 +1,159 @@
+ 
+
+
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link rel="stylesheet" href="/assets/css/main.css">
+    <head>
+        <title>{{ site.title }} - {{ page.title }}</title>
+    </head>
+    <body>
+        {% include nav.html %}
+        {% include hero.html %}
+
+        <main class="main_home">
+            <section class="section" id="solutions">
+                <div class="section__inner">
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Solutions</h2></div>
+                        <div class="section__head-description"> <p>Break the ice by stunning 3D presentation through VR or simply in a browser: high-quality graphics and digitalization for your machine or engineering equipment.</p></div>
+                    </div>
+
+                    <div class="cards equal-height">
+
+                        <div class="card ">
+                            <a class="card__inner card__inner_linked card__inner_left" href="/web3d/">
+                                <div class="card__img"><img src="/assets/img/web3dshowroom.png" class="icon"></div>
+                                <h3 class="card__title">WEB3d <br>Showroom</h3>
+                                <div class="card__description">Interactive 3D presentation for extended online lead generation</div>                            
+                            </a>
+                        </div>  
+
+                        <div class="card ">
+                            <a class="card__inner  card__inner_linked " href="/vr/">
+                                <div class="card__img"><img src="/assets/img/vrshowroom.png" class="icon"></div>
+                                <h3 class="card__title">Virtual Reality <br>Showroom</h3>
+                                <div class="card__description">Immersive digital presentation of your machine on a local exhibitions</div>                            
+                            </a>
+                        </div>  
+
+                        <div class="card ">
+                            <div class="card__inner card__inner_right">
+                                <div class="card__img"><img src="/assets/img/vrtraining.png" class="icon"></div>
+                                <h3 class="card__title">VR Training <br>Simulator</h3>
+                                <div class="card__description">Up to 75% of information retention with immersive learning for employees </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-block cta-block_blue">
+                    <div class="cta-block__inner  clearfix">
+                        <div class="cta-block__description">
+                            Start Your 3D Visualization Project from <b>Only 499€ *</b><sup><small> <a>Details</a> </small></sup>
+                        </div>
+                        <div class="cta-block__button">
+                            <a href="" class="cta cta_white">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section class="section section_casestudies">
+                <div class="section__inner">
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Client Cases</h2></div> 
+                    </div>   
+                </div>  
+
+                 {% include home_case_slider.html %}
+
+            </section>
+
+            <section class="section section_benefits">
+                <div class="section__inner">
+                    
+
+                    {% include benefits.html %} 
+                </div>
+            </section>  
+
+            <section class="section section_blue section_hiw">
+                <div class="section__inner"> 
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>How It Works</h2></div>
+                    </div>
+
+                    <div class="hiw__infographic">
+
+                        <div class="hiw__center">   
+                                <div class="hiw__step">
+                                    <h3>Your Data Input</h3>
+                                    <p>Blueprints, fotos, videos and 3D model files about the object.</p>
+                                    <div class="hiw__icons hiw__icons_cad"></div>
+                                    <img src="assets/img/icons/data-input.png"   class="icon">
+                                </div>  
+
+                                <div class="hiw__arrow"><span class="hiw__arrow-icon hiw__arrow-icon_down"></span></div>
+
+                                <div class="hiw__step hiw__step_work">
+                                    <img src="assets/img/icons/work.png"   class="icon ">
+                                    <h3>Work Process</h3>
+                                    <p>We provide high-quality 3D modeling, visualization, animation and programming</p>
+                                    <div class="hiw__icons hiw__icons_work"></div>
+                                </div>
+
+                        </div>
+
+
+                        <div class="hiw__left">
+
+                                <div class="hiw__step hiw__step_outlined">
+                                    <h3>web 3d <br/>Showroom</h3>
+                                    <img src="assets/img/icons/html.png"   class="icon">
+                                    <p>Embed provided HTML code to your website</p>
+                                    <div class="hiw__icons hiw__icons_browsers"></div>
+                                    <div class="hiw__cta"><a href="" class="cta cta_white">See Demo</a></div>
+                                </div>  
+
+
+                         </div> 
+
+
+
+                        <div class="hiw__right">
+
+                                <div class="hiw__step hiw__step_outlined">
+                                    <h3>VR <br>Software</h3>
+                                    <img src="assets/img/icons/vr-software.png"   class="icon">
+                                    <p>Install provided VR software on your computer</p>
+                                    <div class="hiw__icons hiw__icons_vr"></div>
+                                    <div class="hiw__cta"><a href="" class="cta cta_white">See Demo</a></div>
+                                </div>  
+
+
+                         </div> 
+
+                    </div> 
+                       
+                    </div>
+                    
+                </div>
+            </section>
+
+             {% include knowledge_base.html %} 
+             {% include clients.html %}
+             {% include footer.html %} 
+ 
+
+                 
+ 
+        </main>
+ 
+
+
+    </body>
+</html>

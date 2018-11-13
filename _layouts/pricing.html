@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/page-pricing.css">
+    <head>
+    	<title>{{ page.title }}  | {{ site.title }}</title>
+        
+    </head>
+    <body>
+        {% include nav.html %}
+        <main>
+
+        <header class="section page-header">
+        	<div class="section__inner equal-height">
+        		<div class="page-header__title"><h1 >{{page.title}}</h1></div>
+        		<div ><div class="page-header__icon" style="background-image:url(/assets/img/pages-icons/{{page.icon}})"></div> </div>
+        	</div>
+        </header>
+
+
+			<div class="section__inner page-content">
+        		{{ content }}
+        	</div>
+        
+        	{% include pricing-calc.html %}
+
+
+        </main>
+
+
+        {% include footer.html %} 
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<section class="section section_clients">
+	<div class="section__inner">
+
+		<div class="section__head">			
+			 <div class="section__head-title"> <h2>Our Clients</h2></div> 
+		</div>
+
+		<div class="testimonials">
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/css/swiper.css">
+
+<!-- Slider main container -->
+<div class="swiper-container swiper-container_client">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" >
+        <!-- Slides -->
+        {% for slide in page.testimonials %}
+        <div class="swiper-slide">
+			<figure class="testimonial">
+			    <blockquote class="testimonial__quote">{{ slide.description }}</blockquote>
+			    <footer class="testimonial__footer">
+			        <cite class="testimonial__author">{{ slide.author }}</cite>,
+			        <br/><cite class="testimonial__position">{{ slide.position }},</cite>
+			        <br/><cite class="testimonial__company">{{ slide.company }}</cite>
+			    </footer>
+			</figure>
+			 
+
+        </div>
+        {% endfor %}
+ 
+ 
+    </div>
+ 
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+
+
+
+
+
+<script src="/assets/js/swiper.min.js"></script>
+
+<script>
+ 
+
+  var clientSwiper = new Swiper ('.swiper-container_client', {
+ 
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+
+ 
+  });
+  </script>
+
+		
+		</div>
+
+    <div class="client-logos"></div>
+
+	</div>
+</section>

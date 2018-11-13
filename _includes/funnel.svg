@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="604.3877mm"
+   height="340.42224mm"
+   viewBox="0 0 604.3877 340.42224"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="funnel.svg">
+  <defs
+     id="defs2">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter946"
+       x="-0.023273246"
+       width="1.0465465"
+       y="-0.079442218"
+       height="1.1588844">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.2114754"
+         id="feGaussianBlur948" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="1461.5067"
+     inkscape:cy="726.53572"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     transform="translate(312.284,-51.122217)">
+    <path
+       style="fill:none;stroke:#55abfd;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -88.84668,114.7984 H 171.47384"
+       id="path1217"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1219"
+       d="M -49.825329,191.23792 H 210.49519"
+       style="fill:none;stroke:#55abfd;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#55abfd;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 15.922974,267.14247 H 200"
+       id="path1221"
+       inkscape:connector-curvature="0" />
+ 
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     style="display:inline"
+     transform="translate(312.284,-51.122217)">
+    <g
+       id="step4"
+       transform="translate(0,320.14728)"
+       inkscape:label="">
+      <rect
+         y="-5.8062224"
+         x="58.74287"
+         height="66.810081"
+         width="228.0533"
+         id="rect1114"
+         style="opacity:0.20400002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter946)" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect1116"
+         width="228.0533"
+         height="66.810081"
+         x="58.74287"
+         y="-8.9812222" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="126.41862"
+         y="27.237921"
+         id="text1215"><tspan
+           sodipodi:role="line"
+           x="126.41862"
+           y="27.237921"
+           id="tspan1213"
+           style="stroke-width:0.26458332"><tspan
+             x="126.41862"
+             y="27.237921"
+             id="tspan1211"
+             style="stroke-width:0.26458332">SALE</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#55abfd;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="76.706596"
+         y="41.942848"
+         id="text1256"><tspan
+           sodipodi:role="line"
+           x="76.706596"
+           y="41.942848"
+           id="tspan1254"
+           style="stroke-width:0.26458332"><tspan
+             x="76.706596"
+             y="41.942848"
+             id="tspan1252"
+             style="stroke-width:0.26458332">4</tspan></tspan></text>
+    </g>
+    <image
+       sodipodi:absref="/assets/img/svg/funnel.png"
+       y="-2.8610106"
+       x="-312.284"
+       id="image1266"
+       xlink:href="/assets/img/svg/funnel.png"
+       preserveAspectRatio="none"
+       height="485.42224"
+       width="457.90558" />
+    <g class="funnel__step"><g
+       id="step1"
+       inkscape:label=""
+       transform="translate(0,91.016718)">
+      <rect
+         style="opacity:0.20400002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter946)"
+         id="rect860"
+         width="228.0533"
+         height="66.810081"
+         x="58.74287"
+         y="-5.8062224" />
+      <rect
+         y="-8.9812222"
+         x="58.74287"
+         height="66.810081"
+         width="228.0533"
+         id="rect858"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="120.53868"
+         y="19.754374"
+         id="text1179"><tspan
+           sodipodi:role="line"
+           x="120.53868"
+           y="19.754374"
+           id="tspan1177"
+           style="stroke-width:0.26458332"><tspan
+             x="120.53868"
+             y="19.754374"
+             id="tspan1175"
+             style="stroke-width:0.26458332">DEMO SHOWROOM</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light';letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="120.40505"
+         y="40.334126"
+         id="text1185"><tspan
+           sodipodi:role="line"
+           x="120.40505"
+           y="40.334126"
+           id="tspan1183"
+           style="stroke-width:0.26458332"><tspan
+             x="120.40505"
+             y="40.334126"
+             style="font-size:11.28888893px;stroke-width:0.26458332"
+             id="tspan1181">Get Higher Engagement</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#55abfd;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="76.706596"
+         y="41.942848"
+         id="text1238"><tspan
+           sodipodi:role="line"
+           x="76.706596"
+           y="41.942848"
+           id="tspan1236"
+           style="stroke-width:0.26458332"><tspan
+             x="76.706596"
+             y="41.942848"
+             id="tspan1234"
+             style="stroke-width:0.26458332">1</tspan></tspan></text>
+    </g> </g>
+    <g class="funnel__step"><g
+       id="step2"
+       transform="translate(0,167.21715)"
+       inkscape:label="">
+      <rect
+         y="-5.8062224"
+         x="58.74287"
+         height="66.810081"
+         width="228.0533"
+         id="rect1054"
+         style="opacity:0.20400002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter946)" />
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect1056"
+         width="228.0533"
+         height="66.810081"
+         x="58.74287"
+         y="-8.9812222" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="120.53868"
+         y="19.754374"
+         id="text1197"><tspan
+           sodipodi:role="line"
+           x="120.53868"
+           y="19.754374"
+           id="tspan1195"
+           style="stroke-width:0.26458332"><tspan
+             x="120.53868"
+             y="19.754374"
+             id="tspan1193"
+             style="stroke-width:0.26458332">CONTACT</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light';letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="120.40505"
+         y="40.334126"
+         id="text1191"><tspan
+           sodipodi:role="line"
+           x="120.40505"
+           y="40.334126"
+           id="tspan1189"
+           style="stroke-width:0.26458332"><tspan
+             x="120.40505"
+             y="40.334126"
+             style="font-size:11.28888893px;stroke-width:0.26458332"
+             id="tspan1187">Lead Generation</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#55abfd;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="76.706596"
+         y="41.942848"
+         id="text1244"><tspan
+           sodipodi:role="line"
+           x="76.706596"
+           y="41.942848"
+           id="tspan1242"
+           style="stroke-width:0.26458332"><tspan
+             x="76.706596"
+             y="41.942848"
+             id="tspan1240"
+             style="stroke-width:0.26458332">2</tspan></tspan></text>
+    </g> </g>
+    <g class="funnel__step"><g
+       transform="translate(0,243.41763)"
+       id="step3"
+       inkscape:label="">
+      <rect
+         style="opacity:0.20400002;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter946)"
+         id="rect1084"
+         width="228.0533"
+         height="66.810081"
+         x="58.74287"
+         y="-5.8062224" />
+      <rect
+         y="-8.9812222"
+         x="58.74287"
+         height="66.810081"
+         width="228.0533"
+         id="rect1086"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="120.53868"
+         y="19.754374"
+         id="text1209"><tspan
+           sodipodi:role="line"
+           x="120.53868"
+           y="19.754374"
+           id="tspan1207"
+           style="stroke-width:0.26458332"><tspan
+             x="120.53868"
+             y="19.754374"
+             id="tspan1205"
+             style="stroke-width:0.26458332">PRESALE MEETING</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:12.69999981px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Light';letter-spacing:0px;word-spacing:0px;fill:#454545;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="120.40505"
+         y="40.334126"
+         id="text1203"><tspan
+           sodipodi:role="line"
+           x="120.40505"
+           y="40.334126"
+           id="tspan1201"
+           style="stroke-width:0.26458332"><tspan
+             x="120.40505"
+             y="40.334126"
+             style="font-size:11.28888893px;stroke-width:0.26458332"
+             id="tspan1199">Sale Assistant Video Call</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.79999924px;line-height:1.25;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';letter-spacing:0px;word-spacing:0px;opacity:1;fill:#55abfd;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="76.706596"
+         y="41.942848"
+         id="text1250"><tspan
+           sodipodi:role="line"
+           x="76.706596"
+           y="41.942848"
+           id="tspan1248"
+           style="stroke-width:0.26458332"><tspan
+             x="76.706596"
+             y="41.942848"
+             id="tspan1246"
+             style="stroke-width:0.26458332">3</tspan></tspan></text>
+    </g> </g>
+  </g>
+</svg>

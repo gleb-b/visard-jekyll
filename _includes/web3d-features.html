@@ -1,0 +1,69 @@
+<section class="section section_blue section_features">
+	<div class="section__inner">
+
+		<div class="section__head">			
+			 <div class="section__head-title"> <h2>Features</h2></div> 
+		</div>
+  </div>
+
+		<div class="features">
+    <link rel="stylesheet" href="/assets/css/swiper.css">
+
+<!-- Slider main container -->
+<div class="swiper-container  swiper-container_feature">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper section__inner" >
+        <!-- Slides -->
+        {% for slide in page.feature-slides %}
+        <div class="swiper-slide ">
+          <div class="feature equal-height">
+          <div class="feature__description">
+            <h3 class="feature__title">{{ slide.title }}</h3>
+            {% for sub in slide.subs %}
+              <h4>{{ sub.subtitle }}</h4>
+              <p>{{ sub.description }}</p>
+            {% endfor %}
+          </div>
+
+          <div class="feature__img"><img src="/assets/img/slides/web3d-features/{{ slide.img }}" ></div>	
+		    
+
+          </div>
+        </div>
+        {% endfor %}
+ 
+ 
+    </div>
+ 
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
+
+</div>
+
+
+<script src="/assets/js/swiper.min.js"></script>
+ 
+
+<script>
+ 
+
+  var featureSwiper = new Swiper ('.swiper-container_feature', {
+ 
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+
+ 
+  });
+  </script>
+
+		
+
+
+ 
+</section>

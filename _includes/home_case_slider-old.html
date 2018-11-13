@@ -1,0 +1,96 @@
+
+
+
+<link rel="stylesheet" href="assets/css/swiper.css">
+
+<!-- Slider main container -->
+<div class="swiper-container swiper-container_casestudies">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" >
+        <!-- Slides -->
+        {% for slide in site.data.slides.home_case_studies %}
+        <div class="caseslide swiper-slide" data-slide="{{ forloop.index }}">
+        	<div class="section__inner equal-height"> 
+				<div class="caseslide__left">
+        			<div class="caseslide__image" style="background-image: url(assets/img/slides/home_case_studies/{{slide.image}})"></div>
+				</div>
+
+
+				<div class="caseslide__right">
+
+				<!-- 	<div class="caseslide__logo"  style="background-image: url(assets/img/slides/home_case_studies/logos/{{slide.logo}})"> </div> -->
+
+          <h3 class="caseslide__title">{{ slide.title }}</h3>
+          <table  class="caseslide__table">
+                <tr><th>Industry:</th><td>{{ slide.industry }}</td></tr>
+                <tr><th>Machine type:</th><td>{{ slide.machine-type }}</td></tr>
+
+                <tr><th>Client needs:</th><td>{{ slide.needs }}</td></tr>
+                <tr><th>Solution:</th><td>{{ slide.solution }}</td></tr> 
+          </table>
+    		 	<p class="caseslide__description"> {{ slide.description }} </p>				
+				</div>
+
+        	</div>
+        </div>
+        {% endfor %}
+ 
+ 
+    </div>
+ 
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+
+
+
+<div class="section__inner caseslide-thumbs clearfix">
+   
+
+ 		{% for slide in site.data.slides.home_case_studies %}
+        <div data-slide="{{ forloop.index }}"  id="caseslideThumb{{ forloop.index }}" class="caseslide-thumb {% if forloop.index == 1 %}active{% endif %}" style="background-image:url(assets/img/slides/home_case_studies/{{slide.image}})"></div>
+        {% endfor %}
+ 
+ </div>
+
+
+<script src="assets/js/swiper.min.js"></script>
+
+<script>
+
+ 
+
+  var caseSwiper = new Swiper ('.swiper-container_casestudies', {
+
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+
+ 
+  });
+
+  caseSwiper.on('slideChangeTransitionStart', function() { 
+    var activeId = $('.caseslide.swiper-slide-active').data('slide');
+    $(".caseslide-thumb").removeClass('active');
+    $("#caseslideThumb"+activeId).addClass('active'); 
+
+   })
+
+
+  $('.caseslide-thumb').click(function(){ 
+    var activeThumbId = $(this).data('slide'); 
+    caseSwiper.slideTo(activeThumbId);
+  })
+ 
+ 
+
+  </script>
+ 
+

@@ -1,0 +1,67 @@
+ 
+
+
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/page-web3d.css">
+<link rel="stylesheet" href="/assets/css/page-vr.css">
+    <head>
+        <title> {{ page.title }} - {{ site.title }}</title>
+    </head>
+    <body>
+        {% include nav.html %}
+        {% include hero.html %} 
+        <main class="main_3d">
+
+
+            <section class="section section_web-3d-intro">
+                <div class="section__inner">
+
+                    <h2 class="intro__title-vr">Complex Machinery Exposition Without any Limits</h2>
+
+                    <div class="intro__features clearfix">
+
+                        <div class="intro__feature intro__feature_vr">
+                            <div class="intro__icon intro__icon_large intro__icon_vr_mobile"></div>
+                            <h3 class="intro__icon-title">Mobile App for a Product Demo</h3>  
+                        </div>
+
+                        <div class="intro__feature intro__feature_vr">
+                            <div class="intro__icon intro__icon_large intro__icon_vr_show"></div>
+                            <h3 class="intro__icon-title">VR Stand for a Trade Show</h3>  
+                        </div>
+
+
+                        <div class="intro__feature intro__feature_vr">
+                            <div class="intro__icon intro__icon_large intro__icon_vr_presentation"></div>
+                            <h3 class="intro__icon-title">Immersive Presentation</h3>  
+                        </div>
+ 
+
+                    </div>
+
+                    <p class="intro__description">VISARD Virtual Reality Platform is a virtual, fully immersive environment that helps users understand a machine, how it functions, and its benefits.</p>
+                    
+ 
+                </div>
+            </section> 
+
+
+            <section class="section section_benefits">
+                <div class="section__inner">
+                    
+
+                    {% include benefits.html %} 
+                </div>
+            </section> 
+ 
+
+        {% include clients.html %}           
+        {% include knowledge_base.html %} 
+
+        {% include footer.html %} 
+        </main>
+    </body>
+</html>

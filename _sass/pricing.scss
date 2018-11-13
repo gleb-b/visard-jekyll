@@ -1,0 +1,432 @@
+
+@import "variables";
+
+/*  PRICING */
+
+.section_pricing {
+	padding: 3em 0;
+}
+
+.calc {
+
+}
+
+.mach-size {
+	width: 50%;
+	float: left;
+}
+
+.mach-size__icon {
+	width: 200px;
+	height: 200px;
+	background-image: url(/assets/img/icons/machine-size-sprite.png);
+	background-position: center center;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.mach-size__icon {
+	width: 200px;
+    height: 200px;
+    background-image: url(/assets/img/icons/machine-size-sprite-ci.png);
+    background-position: center center;
+    background-size: 180px 600px;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+
+
+.mach-size__icon.large {
+background-position: center 100%;
+}
+
+.mach-size__icon.small {
+background-position: center 0;	
+}
+
+.mach-size__icon_wrapper {
+	width: 250px;
+}
+
+.mach-size__control {
+	padding: .5em 0;
+    position: relative;
+    display: block;
+    height: 48px; 
+}
+.mach-size__control label {
+	font-size: $font24;
+	    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 4em;
+    cursor:pointer;
+}
+
+.mach-size__dropdown {
+	display: inline-block;
+    cursor: pointer;
+}
+.mach-size__dropdown-icon {
+	    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-left: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    transform: rotate(-45deg);
+    top: 4px;
+    left: 8px;
+}
+
+.mach-size__dropdown.active .mach-size__dropdown-icon {
+	transform: rotate(135deg);
+}
+
+.mach-size__calc {
+	margin-top: -1em;
+    overflow: hidden;
+}
+
+.mach-size__calc-unit{
+	    width: 33.3%;
+    float: left;    
+    margin-top: -3em;
+    margin-bottom: 3em;
+    transition:.1s linear;
+}
+
+.mach-size__calc.active .mach-size__calc-unit{  
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.mach-size__calc-unit input {
+	background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 100;
+    padding: 10px;
+    box-sizing: border-box;    
+    max-width: 70px;
+
+}
+
+.mach-size__calc-unit input,
+.mach-size__calc-unit label {
+	width: 50%;
+}
+
+
+
+/* Hide the browser's default radio button */
+.mach-size__controls input {
+      position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    top: 0px;
+}
+.mach-size__controls .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 36px;
+  width: 36px;
+  background-color: $blue;
+  border:5px solid #fff;
+  border-radius: 100%; 
+  display: block;
+  pointer-events: none;
+}
+
+.mach-size__controls input:checked ~ .checkmark:after {
+     content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 24px;
+    background-color: #fff;
+    border: 5px solid #55ABFD;
+    border-radius: 100%;
+    display: block;
+    top: 1px;
+    left: 1px;
+}
+
+
+.mach-size__extra {
+    font-size: 80%;
+    text-align: center;
+    opacity: 0;
+    transition:.3s;
+    float: left;
+    width: 100%;
+
+}
+
+.mach-size__extra.active {
+    opacity: 1;
+}
+
+
+
+
+.calc__solutions {
+	width: 50%;
+	float: left;
+}
+
+.calc__solution{
+	width: 45%;
+    float: left;
+    background: #fff;
+    text-align: center;
+        box-shadow: 0px 10px 20px 0px rgba(32, 4, 76, 0.25);
+    box-shadow: 0px 8px 24.5px rgba(0, 0, 0, 0.25);
+}
+
+.calc__solution:last-child{
+	margin-left:10%;
+}
+
+.calc__solution-icon{
+	    width: 150px;
+    height: 150px;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 1em auto;
+}
+
+.calc__solution-icon_web3d {
+	background-image: url(/assets/img/icons/web3d-blue.png);
+}
+
+.calc__solution-icon_vr {
+	background-image: url(/assets/img/icons/vrshowroom-blue.png);
+}
+
+
+.calc__solution-check{
+	 position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.calc__solution-check h4{
+	color: $blue;
+	    text-transform: uppercase;
+    font-size: 18px;
+    width: 70%;
+    float: right;
+    text-align: left;
+    line-height: 150%;
+
+}
+
+.calc__solution-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.calc__solution-checkmark {
+  position: absolute;
+    top: 30px;
+    left: 5px;
+    height: 30px;
+    width: 30px; 
+    border: 5px solid $blue; 
+    opacity: .8;
+    transition:.3s;
+}
+
+/* On mouse-over, add a grey background color */
+.calc__solution-check:hover input ~ .calc__solution-checkmark {
+  opacity: 1;
+}
+
+ 
+
+/* Create the calc__solution-checkmark/indicator (hidden when not checked) */
+.calc__solution-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the calc__solution-checkmark when checked */
+.calc__solution-check input:checked ~ .calc__solution-checkmark:after {
+  display: block;
+}
+
+/* Style the calc__solution-checkmark/indicator */
+.calc__solution-check .calc__solution-checkmark:after {
+ left: 7px;
+    top: 3px;
+    width: 10px;
+    height: 14px;
+    border: solid $blue;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+.pricing-table {
+	    width: 100%;
+    background: #fff;
+    color: #454545;
+    margin: 3em 0;
+    float: left;
+        box-shadow: 0px 8px 19px 5px #00000038;
+}
+
+.pricing-table  th {
+	width: 25%;	
+    padding: 1em 0 2em;
+    border-collapse:collapse;
+}
+
+.pricing-table h4 {
+	text-transform: uppercase;
+	color: $blue;
+}
+.pricing-table thead b {
+    font-size: $font36;
+    font-weight: bold;
+}
+
+.pricing-table thead small { 
+	font-weight: 300;
+}
+
+.pricing-table td {
+	    padding: .5em 2em;
+}
+
+.pricing-table td:first-child,
+.pricing-table th:first-child
+ {    background: linear-gradient(to right, #00000000 92%, #00000005 95%, #0000000f 100%);
+}
+
+
+.pricing-table col:first-child {
+	background-color: $light-grey;
+}
+
+
+
+.pricing-table td:nth-child(3),
+.pricing-table th:nth-child(3),
+.pricing-table td:nth-child(4),
+.pricing-table th:nth-child(4)
+ {
+	
+	    background: linear-gradient(to right, #02020214 0%, transparent 5%);
+}
+
+.pricing-table a {
+	display: block;
+    margin: 1em auto;
+    padding: 1em .5em;
+    background: $blue;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+}
+
+
+.pricing-table tbody tr:nth-child(odd) {
+    background-color: rgba($dark, .1);
+}
+
+.pricing-table tbody#vrfeatures tr:nth-child(even),
+.pricing-table tbody#web3dfeatures tr:nth-child(even) {
+    background-color: rgba($dark, .1);
+}
+
+.pricing-table tbody#vrfeatures tr:nth-child(odd),
+.pricing-table tbody#web3dfeatures tr:nth-child(odd) {
+	background-color: inherit;
+}
+
+.pricing-table tbody tr:nth-child(odd) td:first-child { 
+}
+
+.pricing-table tbody i {
+	    text-align: center;
+    width: 100%;
+    color: $blue;
+}
+
+#vrfeatures,  #web3dfeatures  {
+    display: none;
+}
+
+
+.pricing-table.vr #vrfeatures,  .pricing-table.web #web3dfeatures  {
+    display: table-row-group;
+}
+
+
+.pricing-table th.pricing-table__sub-model  {
+    font-weight: 300;
+    text-align: left;
+    padding: .5em 2em; 
+background: linear-gradient(to right, #55abfd 92%, #53a8f8 95%, #4892d7 100%);
+    color: #fff;
+
+ }
+
+th.pricing-table__sub-model b {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: inherit;
+ }
+
+
+th.pricing-table__sub-model label{
+    opacity: .6;
+    transition: .3s;
+    cursor: pointer;
+ }
+
+
+th.pricing-table__sub-model input {
+    display: none;
+}
+
+th.pricing-table__sub-model input:checked + label{
+    opacity: 1;
+ }
+
+
+.pricing-table__price_crossed {
+    color: rgba($grey, 0.8);
+    display: inline-block;
+    text-decoration: line-through $blue;
+}
+
+
+
+.pricing-table__price.combo {
+    color: $blue;
+}

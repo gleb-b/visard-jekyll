@@ -1,0 +1,49 @@
+@import "variables";
+
+
+
+
+.nav {
+	position: fixed;
+    width: 100%;
+    top: 0;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	z-index: 2;
+}
+
+.nav__inner {
+	width: 90%;
+	margin: 0 auto;
+	max-width: $container-width;
+	padding: 10px 0;
+}
+
+.nav__logo {
+	float:left;
+}
+.nav__logo-link {
+	display: block;
+	background-image:url(/assets/img/SVG/logo-grad.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left center;
+	width:50px;
+	height: 50px; 
+}
+
+.nav__menu {
+	float: right;
+}
+.nav__menu-item {
+	display: inline-block;
+	line-height: 50px;
+	padding: 0 2em;
+	font-size: $font24;
+	transition: $trans-base;
+}
+
+.nav__menu-item:hover {
+	color: $blue;
+}
+

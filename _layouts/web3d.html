@@ -1,0 +1,131 @@
+ 
+
+
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/page-web3d.css">
+    <head>
+        <title> {{ page.title }} - {{ site.title }}</title>
+    </head>
+    <body>
+        {% include nav.html %}
+        {% include hero.html %} 
+        <main class="main_3d">
+
+
+            <section class="section section_web-3d-intro">
+                <div class="section__inner">
+
+                    <h2 class="intro__title">Guaranteed Lead Generation Tools for Complex Engineering <br>Machines and Equipment</h2>
+
+                    <div class="intro__features clearfix">
+
+                        <div class="intro__feature">
+                            <div class="intro__icon intro__icon_rocket"></div>
+                            <h4 class="intro__icon-title">Fast Loading</h4> 
+                            <div class="intro__icon-description">Our innovative 3D streaming technology enables content to quickly load in real-time</div>
+                        </div>
+
+                        <div class="intro__feature">
+                            <div class="intro__icon intro__icon_browsers"></div>
+                            <h4 class="intro__icon-title">Browser Friendly</h4> 
+                            <div class="intro__icon-description">Works in most browsers, including IE. No plugins are necessary</div>
+                        </div>
+
+
+                        <div class="intro__feature">
+                            <div class="intro__icon intro__icon_setup"></div>
+                            <h4 class="intro__icon-title">Easy Setup</h4> 
+                            <div class="intro__icon-description">Quickly embed your Web3D presentation into your current website </div>
+                        </div>
+
+
+                        <div class="intro__feature">
+                            <div class="intro__icon intro__icon_bricks"></div>
+                            <h4 class="intro__icon-title">CRM Integration</h4> 
+                            <div class="intro__icon-description">Track leads from your Web3D showroom by connecting CRM system</div>
+                        </div>
+
+                    </div>
+                    
+ 
+                </div>
+            </section> 
+
+
+             {% include web3d-features.html %} 
+
+
+             <section class="section section_funnel">
+                <div class="section__inner">
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Digitalize Your Sale Process in 4 Steps</h2></div>
+                    </div> 
+                </div>
+
+                <div class="section__inner ">
+                    <div class="funnel__infographic">
+                        {% include funnel.svg %}
+                    </div>              
+                </div>
+
+                 <div class="section__footer">
+                    <div class="section__inner ">
+                        <div class="equal-height">
+                            <div class="section__footer-icon "><img src="/assets/img/icons/funnel.png" ></div>
+                            <div class="section__footer-text">By implementing VISARD solution to your landing page you’ll be able to convert site visitors to warm and hot leads more effective.</div>
+                        </div>
+                    </div>
+                </div>
+
+             </section>
+
+
+            <section class="section section_benefits">
+                <div class="section__inner">
+                    
+
+                    {% include benefits.html %} 
+                </div>
+            </section> 
+
+            <section class="section section_integrations">
+                <div class="section__inner">
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Integrations</h2></div>
+                    </div> 
+                    
+                    <div class="integrations clearfix">
+
+                        <div class="integration">
+                            <div class="integration__icon integration__icon_crm"></div>
+                            <h3 class="integration__title">CRM</h3>
+                            <div class="integration__description">VISARD Lead Generation Tool can be integrated with most popular CRM systems, so the leads from your landing page will automatically register in your database.</div>
+                            <div class="integration__logos integration__logos_crm"></div>
+                        </div>
+
+                        <div class="integration integration_right">
+                            <div class="integration__icon integration__icon_cms"></div>
+                            <h3 class="integration__title">CMS</h3>
+                            <div class="integration__description">Our interactive solutions function on almost every type of website platform. As long as your site is up to date, you’re good to go. Simply place our code into your landing page.</div>
+                            <div class="integration__logos integration__logos_cms"></div>
+                        </div>
+
+                    </div>
+
+                    <p class="integrations__contact">Can't see the right integration? <a href="">Contact us</a> to share your thoughts!</p>
+
+
+
+                </div>
+            </section>
+
+        {% include clients.html %}           
+        {% include knowledge_base.html %} 
+
+        {% include footer.html %} 
+        </main>
+    </body>
+</html>

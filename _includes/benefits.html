@@ -1,0 +1,74 @@
+
+
+
+
+<div class="equal-height">
+
+	<div class="half">
+		<div class="section__head">
+			
+			 <div class="section__head-title"> <h2>{{page.benefits-title}}</h2></div> 
+		</div>
+                       
+                   
+
+
+		{% for benefit in page.benefits %}
+		<div  id="benefit{{ forloop.index }}"	 class="benefit {{benefit.active}}">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url({{ site.url }}/assets/img/icons/{{benefit.icon}});"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">{{benefit.name}}</h3>
+					<div class="benefit__description"><p>{{benefit.description}}</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text">{{benefit.cta-text}}</p> 
+				<a class="benefit__cta-btn cta" href="{{benefit.cta-href}}">{{benefit.cta}}</a>				
+			</div>	
+			
+		</div>
+		{% endfor %}
+
+</div>
+
+
+		<div  class="benefits half">
+			<div class="benefits__inner">
+				<h3 class="benefits__title">{{page.benefits-list-title}}</h3>
+				<ul class="benefits__list">
+				{% for benefit in page.benefits %}
+					<li data-link="{{ forloop.index }}"	 class="benefits__item  {{benefit.active}}">{{benefit.name}}</li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+
+</div>
+
+
+<script>
+
+	$( document ).ready(function() {
+    	$('.benefits__item').click(function(){ 
+			var ident = $(this).data( "link" ); 
+			 $('.benefits__item').removeClass('active');
+			 $(this).addClass('active');			 
+			 $('.benefit').removeClass('active');
+			 var id = '#benefit'+ident;
+			 $(id).addClass('active');
+		}) 
+	});
+	
+	
+
+
+
+
+
+
+
+</script>

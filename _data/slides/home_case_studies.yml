@@ -1,0 +1,55 @@
+- title: "Dividella NeoTop X <br/>Packaging machine"
+  description: While the machine is working you can watch it from seven viewports inside and outside the machine.
+  industry: Pharmaceutical
+  machine-type: Packaging
+  needs: Reveal the machine techniques
+  solution: VR application with GearVR
+  image: dividella.png  
+  logo: dividella.png 
+
+- title: "EWAG Laser Line Ultra <br/>cutting machine"
+  description: Using the GearVR glasses you can start the machine, see it working from different perspectives, enjoy a guided tour and reveal hidden processes to understand the technology.
+  industry: Engineering
+  machine-type: Laser cutting
+  needs: Showcase machine features
+  solution: VR application
+  image: 2.png  
+  logo: ewag.png
+
+- title: "Mediseal BE3 <br/>Packaging machine"
+  description: Visard made it possible for Mediseal to showcase their machine all over the world without the usual effort of transporting a hugh machine. Now Mediseal is much more flexible.
+  industry: Pharmaceutica
+  machine-type: Packaging
+  needs: Reduce transportation costs
+  solution: VR application
+  image: mediseal.png  
+  logo:  mediseal.png
+
+- title: "STUDER FAVORIT <br/>CNC Grinding machine"
+  description: Using the GearVR glasses you can start the machine, see it working from different perspectives, enjoy a guided tour and reveal hidden processes to understand the technology.
+  industry: Engineering
+  machine-type: CNC Grinding
+  needs: Showcasing from impossible views
+  solution: VR Presentation
+  image: studer-favorit.png  
+  logo: studer.png
+
+
+- title: "TnT Pallet Unit + Case Unit <br/>Aggregation, serialization and packaging system"
+  description: Using the GearVR glasses you can start the machine, see it working from different perspectives, enjoy a guided tour and reveal hidden processes to understand the technology.
+  industry: Pharmaceutical
+  machine-type: Aggregation, serialization and packaging
+  needs: Additional machine units
+  solution:  VR application
+  image: tnt.png  
+  logo: studer.png
+
+- title: "DESYRE <br/>Inspection machine"
+  description: Using the GearVR glasses you can start the machine, see it working from different perspectives, enjoy a guided tour and reveal hidden processes to understand the technology.
+  industry: Pharmaceutical
+  machine-type: Inspection
+  needs: New ways to reach new clients
+  solution:  Web application
+  image: DE.png  
+  logo: 1.png
+
