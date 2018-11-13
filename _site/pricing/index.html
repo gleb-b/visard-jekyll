@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/page-pricing.css">
+    <head>
+    	<title>Pricing  | VISARD</title>
+        
+    </head>
+    <body>
+        <nav id="siteNavigation" class="nav sticky">
+	<div class="nav__inner clearfix">
+		<div class="nav__logo">
+			<a href="/" class="nav__logo-link" title="Visard"></a>
+		</div>
+
+		<div class="nav__menu">
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000#solutions">Solutions</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/pricing">Pricing</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/blog">Blog</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/contacts">Contacts</a></div>
+		</div>
+	</div>	
+</nav>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <main>
+
+        <header class="section page-header">
+        	<div class="section__inner equal-height">
+        		<div class="page-header__title"><h1 >Pricing</h1></div>
+        		<div ><div class="page-header__icon" style="background-image:url(/assets/img/pages-icons/pricing.png)"></div> </div>
+        	</div>
+        </header>
+
+
+			<div class="section__inner page-content">
+        		<p>Our subscription model is revolutionizing 3D and VR in the engineering equipment industry. Contact us and we’ll work with you to give you a quote that’s perfect for your budget.</p>
+
+<p>Simply choose your technology, the size of your machine, and which options you’d like to include. All you have to next is hit Start Now! Or, if you’d prefer to contact us directly, we will work with you to give you a great estimate for your project.</p>
+
+
+        	</div>
+        
+        	<section class="section section_blue section_pricing">
+	<div class="section__inner calc clearfix">
+
+		<div class="mach-size">
+			<h3 class="mach-size__title">Machine Size</h3>
+			<div class="mach-size__body equal-height">
+				<div class="mach-size__icon_wrapper">
+					<div class="mach-size__icon small"></div>
+				</div>
+				<div class="mach-size__controls">
+					
+
+					<div class="mach-size__control" data-size="small"> 
+						<input data-size="0" data-side="1" class="priceConfig" checked type="radio" id="sizeSmall" name="size" value="small">
+  						<span class="checkmark"></span>
+    					<label for="sizeSmall">Small: < 5m<sup>3</sup> </label>
+    				</div>
+
+					<div class="mach-size__control" data-size="" > 
+						<input data-size="1"  data-side="2" class="priceConfig"  type="radio" id="sizeMedium" name="size" value="medium">
+						<span class="checkmark"></span>
+						<label for="sizeMedium">Medium: < 15m<sup>3</sup> </label>
+					</div>
+
+					<div class="mach-size__control" data-size="large">
+						<input data-size="2"  data-side="3" class="priceConfig" type="radio" id="sizeLarge" name="size" value="large">
+						<span class="checkmark"></span>
+    					<label for="sizeLarge">Large: < 50m<sup>3</sup> </label>
+    				</div>
+
+
+
+					<div class="mach-size__control" >
+						<div class="mach-size__dropdown">
+							<span class="mach-size__dropdown-icon"></span>
+							<label >Enter Measures</label>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="mach-size__calc">
+				<span class="mach-size__calc-unit"> 
+					<label for="width">Width, m:</label> 
+					<input class="mach-size__calc-input" id="width" value="1" type="number">
+				</span>
+				<span class="mach-size__calc-unit"> 
+					<label for="height">Height, m:</label> 
+					<input class="mach-size__calc-input" id="height"   value="1"  type="number">
+				</span>
+				<span class="mach-size__calc-unit"> 
+					<label for="depth">Depth, m:</label> 
+					<input class="mach-size__calc-input" id="depth"  value="1"  type="number">
+				</span>
+
+				<p class="mach-size__extra">
+					Based on Your machine's size it seems that You need <b>Custom Solution</b>. 
+					<br><a >Contact Us </a> for details. 
+				</p>
+			</div>
+		</div>
+
+
+		<div class="calc__solutions">
+			<h3 class="calc__title">Solutions</h3>
+
+			<div class="calc__solution">
+				<div class="calc__solution-icon calc__solution-icon_web3d"></div>
+				<label class="calc__solution-check">
+  					<input class="priceConfig calc__solution-input" type="checkbox" checked="checked" id="webCheck">
+  					<span class="calc__solution-checkmark"></span>
+  					<h4>Web 3d Showroom</h4>
+				</label>
+			</div> 
+			<div class="calc__solution">
+				<div class="calc__solution-icon calc__solution-icon_vr"></div>
+				<label class="calc__solution-check">
+  					<input class="priceConfig calc__solution-input" type="checkbox" id="vrCheck">
+  					<span class="calc__solution-checkmark"></span>
+  					<h4>VR <br>Showroom</h4>
+				</label>
+			</div> 
+		</div>	
+
+
+		<table class="pricing-table web vr" cellspacing="0" cellpadding="0" data-size="0" data-model="0" data-solution="0">
+			<col class="pricing-table__column" />
+			<col class="pricing-table__column" />
+			<col class="pricing-table__column" />
+			<col class="pricing-table__column" />
+
+			<thead>
+				<tr>
+      				<th class="pricing-table__sub-model">
+      					<p>
+      				 		<input data-model="0" class="pricing-table__sub-control priceConfig" type="radio" id="annualSub" name="subscription" value="annual" checked="checked"> 
+    						<label for="annualSub"><b>Annual</b> subscription</label>
+    					 </p> 
+      					<p>
+      				 		<input data-model="3" class="pricing-table__sub-control priceConfig"  type="radio" id="monthlySub" name="subscription" value="monthly"> 
+    						<label for="monthlySub"><b>Monthly</b> subscription</label>
+    					 </p> 
+
+      				</th>
+      				<th> <h4>Starter</h4>
+						<sup class="pricing-table__currency">€</sup>
+						<b class="pricing-table__price_crossed" id="starterCrossed"></b>
+						<b class="pricing-table__price" id="starter">499</b>					 
+						<p><small>per month</small></p>
+      				</th>
+      				<th> <h4>Basic</h4>
+						<sup class="pricing-table__currency">€</sup>
+						<b class="pricing-table__price_crossed" id="basicCrossed"></b>	
+						<b class="pricing-table__price" id="basic">799</b>
+						<p><small>per month</small></p>
+      				</th>
+      				<th> <h4>Professional</h4>
+						<sup class="pricing-table__currency">€</sup>
+						<b class="pricing-table__price_crossed" id="professionalCrossed"></b>	
+						<b class="pricing-table__price" id="professional">1099</b>
+						<p><small>per month</small></p>
+      				</th>
+    			</tr>
+				
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>Machine 3d Visualisation</td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Visard Virtual Vault</td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Animation</td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+			</tbody>
+			<tbody id="web3dfeatures">
+				<tr>
+					<td>Cloud Storage</td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Analytics & Statistics</td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Lead Generation Form</td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Custom CI</td>
+					<td></td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>CRM Integration</td>
+					<td></td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Live Chat</td>
+					<td></td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+			</tbody>
+			<tbody id="vrfeatures">
+				<tr>
+					<td>Branding</td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Tutorial</td>
+					<td></td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Room Scale</td>
+					<td></td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+				<tr>
+					<td>Digital Hands</td>
+					<td></td>
+					<td></td>
+					<td><i class="fas fa-check-circle"></i></td>
+				</tr>
+			</tbody>
+
+			<tfoot>
+				<tr>
+					<td></td>
+					<td><a class="cta" href="">Start Now</a></td>
+					<td><a class="cta" href="">Start Now</a></td>
+					<td><a class="cta" href="">Start Now</a></td>
+				</tr>				
+			</tfoot>
+		</table>
+
+
+	</div>
+</section>
+
+<script>
+	
+	$('.mach-size__control input').click(function(){
+
+		$('.mach-size__extra').removeClass('active');
+		var sizeClass =  $(this).val();
+		var sizeId =  $(this).data('size');
+		$('.mach-size__icon').removeClass('large medium small');
+		$('.mach-size__icon').addClass(sizeClass);		 
+		$('.pricing-table').data('size', sizeId);
+		$( '.mach-size__calc-input' ).val($(this).data('side')); 
+	});
+
+
+	$('.mach-size__dropdown').click(function(){
+		$(this).toggleClass('active');
+		$('.mach-size__calc').toggleClass('active');
+	})
+
+
+
+	$('.calc__solution-input').change(function(){
+		$('.calc__solution-input').removeClass('unchecked');
+		if( !$(this).is(':checked') )  $(this).addClass('unchecked'); 
+		if( !$('#vrCheck').is(':checked') && $('#webCheck').hasClass('unchecked') ) $('#vrCheck').prop( "checked", true );
+		if( !$('#webCheck').is(':checked') && $('#vrCheck').hasClass('unchecked') ) $('#webCheck').prop( "checked", true );
+		$('.pricing-table').removeClass('web vr');
+		if( $('#vrCheck').is(':checked')   ) { 
+			$('.pricing-table').addClass('vr');  
+			$('.pricing-table').data('solution','1'); 
+		}
+
+		if( $('#webCheck').is(':checked')  ) { 
+			$('.pricing-table').addClass('web'); 
+			$('.pricing-table').data('solution','0'); 
+		}
+		if( $('#webCheck').is(':checked') &&  $('#vrCheck').is(':checked')  ) {
+		  $('.pricing-table').data('solution','2'); 
+		}
+		
+	})
+
+	$( '.mach-size__calc-input' ).change(function(){
+
+		$('.mach-size__extra').removeClass('active');
+
+
+		var width = $('#width').val(),
+			height = $('#height').val(),
+			depth = $('#depth').val(),
+			volume = width * height *  depth;
+		if (volume < 5) { $('#sizeSmall').prop( "checked", true );  } 
+		else if  (volume < 15 && volume >= 5 ) { $('#sizeMedium').prop( "checked", true );  }
+		else if (volume < 30 && volume >= 15 ) { $('#sizeLarge').prop( "checked", true );   }
+		else if (volume >= 50 ) { 
+
+			 $('.mach-size__extra').addClass('active'); 
+
+		 } 
+
+	})
+
+	$('.pricing-table__sub-control').change(function(){
+		$('.pricing-table').data('model', $(this).data('model') ); 
+	})
+
+
+
+	$('.priceConfig').change(function(){
+
+		var pricesArray = [
+			[
+				[499,799,1099],
+				[599, 899, 1199],
+				[699, 999, 1299],
+				[525,841,1157],
+				[631, 946, 1262],
+				[736, 1052, 1367]
+			],
+
+			[
+				[999,1499,2099],
+				[1299, 1899, 2499],
+				[1499, 2099, 2699],
+				[1052,1578,2209],
+				[1367, 1999, 2631],
+				[1578, 2209, 2841]
+			],
+
+			[
+				[1299, 2099, 2999],
+				[1599, 2499, 3499],
+				[1899, 2799, 3799],
+				[1367,2209,3157],
+				[1683,2631,3683],
+				[1999,2946,3999]
+			] 
+
+		];
+
+		var solution = $('.pricing-table').data('solution');
+		var size = $('.pricing-table').data('size');
+		var model = $('.pricing-table').data('model');
+		var prices = pricesArray[solution][model+size];
+
+		$('#starter').html(prices[0]);
+		$('#basic').html(prices[1]);
+		$('#professional').html(prices[2]);
+		$('.pricing-table__price').removeClass('combo');
+		if (solution == 2){			
+			$('.pricing-table__price').addClass('combo');
+			$('#starterCrossed').html(  pricesArray[0][model+size][0] + pricesArray[1][model+size][0]   );
+			$('#basicCrossed').html(  pricesArray[0][model+size][1] + pricesArray[1][model+size][1]   );
+			$('#professionalCrossed').html( pricesArray[0][model+size][2] + pricesArray[1][model+size][2]  );
+		}
+
+		else {$('.pricing-table__price_crossed').html('');}
+
+
+	})
+
+
+
+
+</script>
+
+
+        </main>
+
+
+        <footer class="section section_footer">
+	<div class="section__inner clearfix">
+
+		<div class="footer-column footer-column_adress">
+			<div class="footer-column__logo"></div>
+			<p class="footer-column__adress">Firkenweg 7<br>85774 Unterföhring, DE</p>
+			<p class="footer-column__adress">Phone: <a href="tel:+49022116535570">+49 (0) 221 165 355 70</a></p>
+			<p class="footer-column__adress">Fax: <a href="tel:+49022116535579">+49 (0) 221 165 355 79</a></p>
+			<p class="footer-column__adress">Email: <a href="mailto:info@visard.com">info@visard.com</a></p>
+			<p> <div class="social">
+	<a href="https://www.facebook.com/visardcompany/" class="social__link"><i class="fab fa-facebook-f"></i></a>
+	<a href="" class="social__link"><i class="fab fa-twitter"></i></a>
+	<a href="" class="social__link"><i class="fab fa-linkedin-in"></i></a>
+	<a href="" class="social__link"><i class="fab fa-youtube"></i></a>
+	<a href="" class="social__link"><i class="fab fa-google-plus-g"></i></a>
+	<a href="" class="social__link"><i class="fab fa-vimeo-v"></i></a>
+</div> </p>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Company</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="">Services</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/pricing">Pricing</a></li>
+				<li class="footer-column__link"><a href="">About Us</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/blog">Blog</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/contacts">Contacts</a></li>
+				<li class="footer-column__link"><a href="">Impressum</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Industry Solutions</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/pharmaceutical">Pharmaceutical</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/grinding">Grinding</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/packaging">Packaging</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/cosmetics">Cosmetics</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/automotive">Automotive</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/robotics">Robotics</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Useful Links</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="">How it Works</a></li>
+				<li class="footer-column__link"><a href="">Become a Partner</a></li>
+				<li class="footer-column__link"><a href="">Use Cases</a></li>
+				<li class="footer-column__link"><a href="">Sitemap</a></li>
+				<li class="footer-column__link"><a href="">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-copyright">Copyright © 2018 VISARD. All Rights Reserved</div>
+
+
+
+		
+	</div>
+</footer> 
+    </body>
+</html>

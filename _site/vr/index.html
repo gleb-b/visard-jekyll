@@ -1,0 +1,558 @@
+ 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/page-web3d.css">
+<link rel="stylesheet" href="/assets/css/page-vr.css">
+    <head>
+        <title> Virtual Reality Showroom - VISARD</title>
+    </head>
+    <body>
+        <nav id="siteNavigation" class="nav heroed">
+	<div class="nav__inner clearfix">
+		<div class="nav__logo">
+			<a href="/" class="nav__logo-link" title="Visard"></a>
+		</div>
+
+		<div class="nav__menu">
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000#solutions">Solutions</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/pricing">Pricing</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/blog">Blog</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/contacts">Contacts</a></div>
+		</div>
+	</div>	
+</nav>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <header class="hero section">
+    <div class="hero__video_wrapper">
+        <video class="hero__video"  autoplay muted loop   src="/assets/video/Banner_04.mp4"></video>
+    </div>
+	<div class="hero__bg hero__bg_home"> </div>
+
+	<div class="section__inner section__inner_hero">
+		<div class="hero__texts">
+		<h1 class="hero__title">Virtual Reality <br>Showroom</h1>	
+		<h2 class="hero__subtitle"> <b>Start VR Project</b> <br>from 999€</h2>	
+			
+		</div>
+		<a class=" cta_hero" href="../contacts">Contact Us</a>
+	</div>
+
+
+	<style>
+		
+
+
+.nav {
+	    position: absolute;
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    /*
+    transition: .4s;
+    transition-property:background, box-shaddow;
+    */
+}
+
+.nav.sticky {
+	position:fixed;    
+	background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    color: #454545;
+}
+
+
+.heroed {
+	padding: 2em 0;
+}
+
+.heroed .nav__logo-link {
+	background-image:url(/assets/img/SVG/logo-titled-white.svg);
+	width: 180px;
+}
+
+.heroed .nav__menu-item {
+
+	font-weight: 400;
+}
+
+	</style>
+
+	<script>
+
+		
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+
+
+// Get the header
+var mainTag = document.getElementsByTagName("main")[0];
+var header = document.getElementById('siteNavigation');
+
+// Get the offset position of the navbar
+ 
+
+var viewportOffset = mainTag.getBoundingClientRect();
+// these are relative to the viewport
+var top = viewportOffset.top;
+
+
+  if (top <= 80) {
+    header.classList.add("sticky");
+    header.classList.remove("heroed");
+  } else {
+    header.classList.remove("sticky");
+    header.classList.add("heroed");
+  }
+}
+
+
+
+
+	</script>
+	
+
+</header> 
+        <main class="main_3d">
+
+
+            <section class="section section_web-3d-intro">
+                <div class="section__inner">
+
+                    <h2 class="intro__title-vr">Complex Machinery Exposition Without any Limits</h2>
+
+                    <div class="intro__features clearfix">
+
+                        <div class="intro__feature intro__feature_vr">
+                            <div class="intro__icon intro__icon_large intro__icon_vr_mobile"></div>
+                            <h3 class="intro__icon-title">Mobile App for a Product Demo</h3>  
+                        </div>
+
+                        <div class="intro__feature intro__feature_vr">
+                            <div class="intro__icon intro__icon_large intro__icon_vr_show"></div>
+                            <h3 class="intro__icon-title">VR Stand for a Trade Show</h3>  
+                        </div>
+
+
+                        <div class="intro__feature intro__feature_vr">
+                            <div class="intro__icon intro__icon_large intro__icon_vr_presentation"></div>
+                            <h3 class="intro__icon-title">Immersive Presentation</h3>  
+                        </div>
+ 
+
+                    </div>
+
+                    <p class="intro__description">VISARD Virtual Reality Platform is a virtual, fully immersive environment that helps users understand a machine, how it functions, and its benefits.</p>
+                    
+ 
+                </div>
+            </section> 
+
+
+            <section class="section section_benefits">
+                <div class="section__inner">
+                    
+
+                    
+
+
+
+<div class="equal-height">
+
+	<div class="half">
+		<div class="section__head">
+			
+			 <div class="section__head-title"> <h2>Advantages</h2></div> 
+		</div>
+                       
+                   
+
+
+		
+		<div  id="benefit1"	 class="benefit active">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url(http://127.0.0.1:4000/assets/img/icons/quality.png);"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">Quality</h3>
+					<div class="benefit__description"><p>Amazing quality of 3D Visualization makes a stunning impression. Your digital machine looks just like the real thing!</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text">Want to know more about our quality approach?</p> 
+				<a class="benefit__cta-btn cta" href="">More Info</a>				
+			</div>	
+			
+		</div>
+		
+		<div  id="benefit2"	 class="benefit ">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url(http://127.0.0.1:4000/assets/img/icons/pay-as-go.png);"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">Pay As You Go</h3>
+					<div class="benefit__description"><p>Location, time, and device: forget about such limitations. VISARD 3D Visualization Platform solutions are available anytime and everywhere!</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text"></p> 
+				<a class="benefit__cta-btn cta" href="">More Info</a>				
+			</div>	
+			
+		</div>
+		
+		<div  id="benefit3"	 class="benefit ">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url(http://127.0.0.1:4000/assets/img/icons/accessibility.png);"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">Accessibility</h3>
+					<div class="benefit__description"><p>Location, time, and device: forget about such limitations. VISARD 3D Visualization Platform solutions are available anytime and everywhere!</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text">Want to know more about our pricing models?</p> 
+				<a class="benefit__cta-btn cta" href="">More Info</a>				
+			</div>	
+			
+		</div>
+		
+		<div  id="benefit4"	 class="benefit ">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url(http://127.0.0.1:4000/assets/img/icons/pricing.png);"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">Pricing</h3>
+					<div class="benefit__description"><p>Innovative pricing model allows customers to see the approximate project budget right away and split it into payment periods.</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text">Want to know more about our pricing models?</p> 
+				<a class="benefit__cta-btn cta" href="../pricing">More Info</a>				
+			</div>	
+			
+		</div>
+		
+
+</div>
+
+
+		<div  class="benefits half">
+			<div class="benefits__inner">
+				<h3 class="benefits__title">Why Visard</h3>
+				<ul class="benefits__list">
+				
+					<li data-link="1"	 class="benefits__item  active">Quality</li>
+				
+					<li data-link="2"	 class="benefits__item  ">Pay As You Go</li>
+				
+					<li data-link="3"	 class="benefits__item  ">Accessibility</li>
+				
+					<li data-link="4"	 class="benefits__item  ">Pricing</li>
+				
+				</ul>
+			</div>
+		</div>
+
+</div>
+
+
+<script>
+
+	$( document ).ready(function() {
+    	$('.benefits__item').click(function(){ 
+			var ident = $(this).data( "link" ); 
+			 $('.benefits__item').removeClass('active');
+			 $(this).addClass('active');			 
+			 $('.benefit').removeClass('active');
+			 var id = '#benefit'+ident;
+			 $(id).addClass('active');
+		}) 
+	});
+	
+	
+
+
+
+
+
+
+
+</script> 
+                </div>
+            </section> 
+ 
+
+        <section class="section section_clients">
+	<div class="section__inner">
+
+		<div class="section__head">			
+			 <div class="section__head-title"> <h2>Our Clients</h2></div> 
+		</div>
+
+		<div class="testimonials">
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/css/swiper.css">
+
+<!-- Slider main container -->
+<div class="swiper-container swiper-container_client">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" >
+        <!-- Slides -->
+        
+        <div class="swiper-slide">
+			<figure class="testimonial">
+			    <blockquote class="testimonial__quote">Our customers experience our products on our website as realistically as on-site in a store thanks to VISARD’s 3D Renderings.</blockquote>
+			    <footer class="testimonial__footer">
+			        <cite class="testimonial__author">Marc Wallowy</cite>,
+			        <br/><cite class="testimonial__position">Global Marketing Director EMEA,</cite>
+			        <br/><cite class="testimonial__company">Canadian Solar Inc.</cite>
+			    </footer>
+			</figure>
+			 
+
+        </div>
+        
+        <div class="swiper-slide">
+			<figure class="testimonial">
+			    <blockquote class="testimonial__quote">We see ourselves as an innovative media company. VISARD’s technology supports this claim. In cooperation with VISARD we will bring the first 3D VR content to German television in 2016.</blockquote>
+			    <footer class="testimonial__footer">
+			        <cite class="testimonial__author">Jens Schmohl</cite>,
+			        <br/><cite class="testimonial__position">Editor In Chief,</cite>
+			        <br/><cite class="testimonial__company">ProSiebenSat.1 Media SE</cite>
+			    </footer>
+			</figure>
+			 
+
+        </div>
+        
+        <div class="swiper-slide">
+			<figure class="testimonial">
+			    <blockquote class="testimonial__quote">By using the 3D goggles at trade shows, we economise on the substantial transport costs for our machines. Already after two trade shows the investment is amortised. Last but not least, the use of this solutions reflects Seidenaders positioning as an industry-leading innovator.</blockquote>
+			    <footer class="testimonial__footer">
+			        <cite class="testimonial__author">Christian Gamperl</cite>,
+			        <br/><cite class="testimonial__position">Head of Marketing,</cite>
+			        <br/><cite class="testimonial__company">Seidenader Maschinenbau GmbH</cite>
+			    </footer>
+			</figure>
+			 
+
+        </div>
+        
+ 
+ 
+    </div>
+ 
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+
+
+
+
+
+<script src="/assets/js/swiper.min.js"></script>
+
+<script>
+ 
+
+  var clientSwiper = new Swiper ('.swiper-container_client', {
+ 
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+
+ 
+  });
+  </script>
+
+		
+		</div>
+
+    <div class="client-logos"></div>
+
+	</div>
+</section>           
+        
+            <section class="section section_knowledge">
+                <div class="section__inner"> 
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Knowledge Base</h2></div>
+                    </div>
+                    <div class="knowledge clearfix">	
+                        <div class="knowledge__posts">
+                        		<h3>Visard VR Blog</h3>	
+
+
+                                 
+                                
+
+                                <a href="/2018/10/31/5-reasons-vr-training.html" class="post">
+                                    <article class="post__inner">
+
+                                        
+                                        <div class="post__img" style="background-image:url(/assets/img/posts/ucb-robot-vr.jpg)"></div>
+                                        
+                                         
+                                        <time class="post__date" datetime="2018-10-31 22:21:43 +0200">10 / 31</time>
+                                        <h2 class="post__title">5 Reasons You Should Use VR Training</h2>                                    
+                                    </article> 
+                                </a>
+
+                                
+                                 
+                                
+
+                                <a href="/2018/09/11/virtual-trade-show.html" class="post">
+                                    <article class="post__inner">
+
+                                        
+                                        <div class="post__img post__img_default"  ></div>
+                                        
+                                         
+                                        <time class="post__date" datetime="2018-09-11 00:00:00 +0300">09 / 11</time>
+                                        <h2 class="post__title">Virtual Trade show: Science-Fiction or near future?</h2>                                    
+                                    </article> 
+                                </a>
+
+                                
+                                 
+
+                                <p class="knowledge__blog-link"><a href="http://127.0.0.1:4000/blog">Read more in our Blog</a></p>
+
+                        </div>
+                       
+                        <div class="knowledge__materials">
+                        		<h3>Materials</h3>	 
+
+                                <div class="knowledge__material"></div>
+                                <div class="knowledge__material"></div>
+
+                                <div class="knowledge__subscription">
+                                    <div class="subscription subscription_knowledge">
+	<p  class="subscription__title"> Sign up for material updates </p>
+
+	<label  class="subscription__label clearfix" for="emailSubscription">
+		<span>Your <b>Email</b></span>
+		<input class="subscription__input form__input" type="email" id="emailSubscription">
+	</label>
+	<div class="subscription__submit-wrapper">
+		<a class="subscription__submit">SUBSCRIBE</a>		
+	</div>
+
+
+</div>
+                                </div>
+
+
+                        </div>
+
+                     </div>
+                       
+                    </div>
+                    
+                </div>
+            </section> 
+
+        <footer class="section section_footer">
+	<div class="section__inner clearfix">
+
+		<div class="footer-column footer-column_adress">
+			<div class="footer-column__logo"></div>
+			<p class="footer-column__adress">Firkenweg 7<br>85774 Unterföhring, DE</p>
+			<p class="footer-column__adress">Phone: <a href="tel:+49022116535570">+49 (0) 221 165 355 70</a></p>
+			<p class="footer-column__adress">Fax: <a href="tel:+49022116535579">+49 (0) 221 165 355 79</a></p>
+			<p class="footer-column__adress">Email: <a href="mailto:info@visard.com">info@visard.com</a></p>
+			<p> <div class="social">
+	<a href="https://www.facebook.com/visardcompany/" class="social__link"><i class="fab fa-facebook-f"></i></a>
+	<a href="" class="social__link"><i class="fab fa-twitter"></i></a>
+	<a href="" class="social__link"><i class="fab fa-linkedin-in"></i></a>
+	<a href="" class="social__link"><i class="fab fa-youtube"></i></a>
+	<a href="" class="social__link"><i class="fab fa-google-plus-g"></i></a>
+	<a href="" class="social__link"><i class="fab fa-vimeo-v"></i></a>
+</div> </p>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Company</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="">Services</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/pricing">Pricing</a></li>
+				<li class="footer-column__link"><a href="">About Us</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/blog">Blog</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/contacts">Contacts</a></li>
+				<li class="footer-column__link"><a href="">Impressum</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Industry Solutions</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/pharmaceutical">Pharmaceutical</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/grinding">Grinding</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/packaging">Packaging</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/cosmetics">Cosmetics</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/automotive">Automotive</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/robotics">Robotics</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Useful Links</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="">How it Works</a></li>
+				<li class="footer-column__link"><a href="">Become a Partner</a></li>
+				<li class="footer-column__link"><a href="">Use Cases</a></li>
+				<li class="footer-column__link"><a href="">Sitemap</a></li>
+				<li class="footer-column__link"><a href="">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-copyright">Copyright © 2018 VISARD. All Rights Reserved</div>
+
+
+
+		
+	</div>
+</footer> 
+        </main>
+    </body>
+</html>

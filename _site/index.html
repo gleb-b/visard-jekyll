@@ -1,0 +1,946 @@
+ 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/assets/css/main.css">
+    <head>
+        <title>VISARD - VR AR Web3D solutions for enterprises</title>
+    </head>
+    <body>
+        <nav id="siteNavigation" class="nav heroed">
+	<div class="nav__inner clearfix">
+		<div class="nav__logo">
+			<a href="/" class="nav__logo-link" title="Visard"></a>
+		</div>
+
+		<div class="nav__menu">
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000#solutions">Solutions</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/pricing">Pricing</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/blog">Blog</a></div>
+			<div class="nav__menu-item"><a href="http://127.0.0.1:4000/contacts">Contacts</a></div>
+		</div>
+	</div>	
+</nav>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <header class="hero section">
+    <div class="hero__video_wrapper">
+        <video class="hero__video"  autoplay muted loop   src="/assets/video/Banner_04.mp4"></video>
+    </div>
+	<div class="hero__bg hero__bg_home"> </div>
+
+	<div class="section__inner section__inner_hero">
+		<div class="hero__texts">
+		<h1 class="hero__title">Industrial <br>3D Visualization <br>platform</h1>	
+		<h2 class="hero__subtitle"><b>VR</b> | <b>AR</b> | <b>Web3D</b> <br>solutions for enterprises</h2>	
+			
+		</div>
+		<a class=" cta_hero" href="./contacts">Contact Us</a>
+	</div>
+
+
+	<style>
+		
+
+
+.nav {
+	    position: absolute;
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+    /*
+    transition: .4s;
+    transition-property:background, box-shaddow;
+    */
+}
+
+.nav.sticky {
+	position:fixed;    
+	background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    color: #454545;
+}
+
+
+.heroed {
+	padding: 2em 0;
+}
+
+.heroed .nav__logo-link {
+	background-image:url(/assets/img/SVG/logo-titled-white.svg);
+	width: 180px;
+}
+
+.heroed .nav__menu-item {
+
+	font-weight: 400;
+}
+
+	</style>
+
+	<script>
+
+		
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+
+
+// Get the header
+var mainTag = document.getElementsByTagName("main")[0];
+var header = document.getElementById('siteNavigation');
+
+// Get the offset position of the navbar
+ 
+
+var viewportOffset = mainTag.getBoundingClientRect();
+// these are relative to the viewport
+var top = viewportOffset.top;
+
+
+  if (top <= 80) {
+    header.classList.add("sticky");
+    header.classList.remove("heroed");
+  } else {
+    header.classList.remove("sticky");
+    header.classList.add("heroed");
+  }
+}
+
+
+
+
+	</script>
+	
+
+</header>
+
+        <main class="main_home">
+            <section class="section" id="solutions">
+                <div class="section__inner">
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Solutions</h2></div>
+                        <div class="section__head-description"> <p>Break the ice by stunning 3D presentation through VR or simply in a browser: high-quality graphics and digitalization for your machine or engineering equipment.</p></div>
+                    </div>
+
+                    <div class="cards equal-height">
+
+                        <div class="card ">
+                            <a class="card__inner card__inner_linked card__inner_left" href="/web3d/">
+                                <div class="card__img"><img src="/assets/img/web3dshowroom.png" class="icon"></div>
+                                <h3 class="card__title">WEB3d <br>Showroom</h3>
+                                <div class="card__description">Interactive 3D presentation for extended online lead generation</div>                            
+                            </a>
+                        </div>  
+
+                        <div class="card ">
+                            <a class="card__inner  card__inner_linked " href="/vr/">
+                                <div class="card__img"><img src="/assets/img/vrshowroom.png" class="icon"></div>
+                                <h3 class="card__title">Virtual Reality <br>Showroom</h3>
+                                <div class="card__description">Immersive digital presentation of your machine on a local exhibitions</div>                            
+                            </a>
+                        </div>  
+
+                        <div class="card ">
+                            <div class="card__inner card__inner_right">
+                                <div class="card__img"><img src="/assets/img/vrtraining.png" class="icon"></div>
+                                <h3 class="card__title">VR Training <br>Simulator</h3>
+                                <div class="card__description">Up to 75% of information retention with immersive learning for employees </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-block cta-block_blue">
+                    <div class="cta-block__inner  clearfix">
+                        <div class="cta-block__description">
+                            Start Your 3D Visualization Project from <b>Only 499€ *</b><sup><small> <a>Details</a> </small></sup>
+                        </div>
+                        <div class="cta-block__button">
+                            <a href="" class="cta cta_white">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section class="section section_casestudies">
+                <div class="section__inner">
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Client Cases</h2></div> 
+                    </div>   
+                </div>  
+
+                 
+
+
+<link rel="stylesheet" href="assets/css/swiper.css">
+
+<!-- Slider main container -->
+<div class="swiper-container swiper-container_casestudies">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" >
+        <!-- Slides -->
+        
+        <div class="caseslide swiper-slide" data-slide="1" data-img="dividella.png"> 
+        			<div class="caseslide__image" style="background-image: url(assets/img/slides/home_case_studies/dividella.png)"></div>
+		
+
+
+    				<!-- 	<div class="caseslide__logo"  style="background-image: url(assets/img/slides/home_case_studies/logos/dividella.png)"> </div> -->
+
+          
+
+          <div class="section__inner">            
+            <h3 class="caseslide__title">Dividella NeoTop X <br/>Packaging machine</h3>
+            <div class="equal-height">
+
+              <div class="caseslide__wrapper">
+                <table  class="caseslide__table">
+                     <tr><th>Industry:</th><td>Pharmaceutical</td></tr>
+                      <tr><th>Machine type:</th><td>Packaging</td></tr>
+
+                     <tr><th>Client needs:</th><td>Reveal the machine techniques</td></tr>
+                      <tr><th>Solution:</th><td>VR application with GearVR</td></tr> 
+                </table>
+              </div>
+
+              <div class="caseslide__wrapper">
+        		 	  <p class="caseslide__description"> While the machine is working you can watch it from seven viewports inside and outside the machine. </p>
+              </div> 
+
+            </div>		
+          </div>		
+		
+ 
+        </div>
+        
+        <div class="caseslide swiper-slide" data-slide="2" data-img="2.png"> 
+        			<div class="caseslide__image" style="background-image: url(assets/img/slides/home_case_studies/2.png)"></div>
+		
+
+
+    				<!-- 	<div class="caseslide__logo"  style="background-image: url(assets/img/slides/home_case_studies/logos/ewag.png)"> </div> -->
+
+          
+
+          <div class="section__inner">            
+            <h3 class="caseslide__title">EWAG Laser Line Ultra <br/>cutting machine</h3>
+            <div class="equal-height">
+
+              <div class="caseslide__wrapper">
+                <table  class="caseslide__table">
+                     <tr><th>Industry:</th><td>Engineering</td></tr>
+                      <tr><th>Machine type:</th><td>Laser cutting</td></tr>
+
+                     <tr><th>Client needs:</th><td>Showcase machine features</td></tr>
+                      <tr><th>Solution:</th><td>VR application</td></tr> 
+                </table>
+              </div>
+
+              <div class="caseslide__wrapper">
+        		 	  <p class="caseslide__description"> Using the GearVR glasses you can start the machine, see it working from different perspectives, enjoy a guided tour and reveal hidden processes to understand the technology. </p>
+              </div> 
+
+            </div>		
+          </div>		
+		
+ 
+        </div>
+        
+        <div class="caseslide swiper-slide" data-slide="3" data-img="mediseal.png"> 
+        			<div class="caseslide__image" style="background-image: url(assets/img/slides/home_case_studies/mediseal.png)"></div>
+		
+
+
+    				<!-- 	<div class="caseslide__logo"  style="background-image: url(assets/img/slides/home_case_studies/logos/mediseal.png)"> </div> -->
+
+          
+
+          <div class="section__inner">            
+            <h3 class="caseslide__title">Mediseal BE3 <br/>Packaging machine</h3>
+            <div class="equal-height">
+
+              <div class="caseslide__wrapper">
+                <table  class="caseslide__table">
+                     <tr><th>Industry:</th><td>Pharmaceutica</td></tr>
+                      <tr><th>Machine type:</th><td>Packaging</td></tr>
+
+                     <tr><th>Client needs:</th><td>Reduce transportation costs</td></tr>
+                      <tr><th>Solution:</th><td>VR application</td></tr> 
+                </table>
+              </div>
+
+              <div class="caseslide__wrapper">
+        		 	  <p class="caseslide__description"> Visard made it possible for Mediseal to showcase their machine all over the world without the usual effort of transporting a hugh machine. Now Mediseal is much more flexible. </p>
+              </div> 
+
+            </div>		
+          </div>		
+		
+ 
+        </div>
+        
+        <div class="caseslide swiper-slide" data-slide="4" data-img="studer-favorit.png"> 
+        			<div class="caseslide__image" style="background-image: url(assets/img/slides/home_case_studies/studer-favorit.png)"></div>
+		
+
+
+    				<!-- 	<div class="caseslide__logo"  style="background-image: url(assets/img/slides/home_case_studies/logos/studer.png)"> </div> -->
+
+          
+
+          <div class="section__inner">            
+            <h3 class="caseslide__title">STUDER FAVORIT <br/>CNC Grinding machine</h3>
+            <div class="equal-height">
+
+              <div class="caseslide__wrapper">
+                <table  class="caseslide__table">
+                     <tr><th>Industry:</th><td>Engineering</td></tr>
+                      <tr><th>Machine type:</th><td>CNC Grinding</td></tr>
+
+                     <tr><th>Client needs:</th><td>Showcasing from impossible views</td></tr>
+                      <tr><th>Solution:</th><td>VR Presentation</td></tr> 
+                </table>
+              </div>
+
+              <div class="caseslide__wrapper">
+        		 	  <p class="caseslide__description"> Using the GearVR glasses you can start the machine, see it working from different perspectives, enjoy a guided tour and reveal hidden processes to understand the technology. </p>
+              </div> 
+
+            </div>		
+          </div>		
+		
+ 
+        </div>
+        
+        <div class="caseslide swiper-slide" data-slide="5" data-img="tnt.png"> 
+        			<div class="caseslide__image" style="background-image: url(assets/img/slides/home_case_studies/tnt.png)"></div>
+		
+
+
+    				<!-- 	<div class="caseslide__logo"  style="background-image: url(assets/img/slides/home_case_studies/logos/studer.png)"> </div> -->
+
+          
+
+          <div class="section__inner">            
+            <h3 class="caseslide__title">TnT Pallet Unit + Case Unit <br/>Aggregation, serialization and packaging system</h3>
+            <div class="equal-height">
+
+              <div class="caseslide__wrapper">
+                <table  class="caseslide__table">
+                     <tr><th>Industry:</th><td>Pharmaceutical</td></tr>
+                      <tr><th>Machine type:</th><td>Aggregation, serialization and packaging</td></tr>
+
+                     <tr><th>Client needs:</th><td>Additional machine units</td></tr>
+                      <tr><th>Solution:</th><td>VR application</td></tr> 
+                </table>
+              </div>
+
+              <div class="caseslide__wrapper">
+        		 	  <p class="caseslide__description"> Using the GearVR glasses you can start the machine, see it working from different perspectives, enjoy a guided tour and reveal hidden processes to understand the technology. </p>
+              </div> 
+
+            </div>		
+          </div>		
+		
+ 
+        </div>
+        
+        <div class="caseslide swiper-slide" data-slide="6" data-img="DE.png"> 
+        			<div class="caseslide__image" style="background-image: url(assets/img/slides/home_case_studies/DE.png)"></div>
+		
+
+
+    				<!-- 	<div class="caseslide__logo"  style="background-image: url(assets/img/slides/home_case_studies/logos/1.png)"> </div> -->
+
+          
+
+          <div class="section__inner">            
+            <h3 class="caseslide__title">DESYRE <br/>Inspection machine</h3>
+            <div class="equal-height">
+
+              <div class="caseslide__wrapper">
+                <table  class="caseslide__table">
+                     <tr><th>Industry:</th><td>Pharmaceutical</td></tr>
+                      <tr><th>Machine type:</th><td>Inspection</td></tr>
+
+                     <tr><th>Client needs:</th><td>New ways to reach new clients</td></tr>
+                      <tr><th>Solution:</th><td>Web application</td></tr> 
+                </table>
+              </div>
+
+              <div class="caseslide__wrapper">
+        		 	  <p class="caseslide__description"> Using the GearVR glasses you can start the machine, see it working from different perspectives, enjoy a guided tour and reveal hidden processes to understand the technology. </p>
+              </div> 
+
+            </div>		
+          </div>		
+		
+ 
+        </div>
+        
+ 
+ 
+    </div>
+ 
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+
+
+
+<div class="section__inner caseslide-thumbs clearfix">
+   
+
+ 		
+        <div data-slide="1"  id="caseslideThumb1" class="caseslide-thumb active" style="background-image:url(assets/img/slides/home_case_studies/thumbs/dividella.png)"></div>
+        
+        <div data-slide="2"  id="caseslideThumb2" class="caseslide-thumb " style="background-image:url(assets/img/slides/home_case_studies/thumbs/2.png)"></div>
+        
+        <div data-slide="3"  id="caseslideThumb3" class="caseslide-thumb " style="background-image:url(assets/img/slides/home_case_studies/thumbs/mediseal.png)"></div>
+        
+        <div data-slide="4"  id="caseslideThumb4" class="caseslide-thumb " style="background-image:url(assets/img/slides/home_case_studies/thumbs/studer-favorit.png)"></div>
+        
+        <div data-slide="5"  id="caseslideThumb5" class="caseslide-thumb " style="background-image:url(assets/img/slides/home_case_studies/thumbs/tnt.png)"></div>
+        
+        <div data-slide="6"  id="caseslideThumb6" class="caseslide-thumb " style="background-image:url(assets/img/slides/home_case_studies/thumbs/DE.png)"></div>
+        
+ 
+ </div>
+
+
+<script src="assets/js/swiper.min.js"></script>
+
+<script>
+
+ 
+
+  var caseSwiper = new Swiper ('.swiper-container_casestudies', {
+
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+
+ 
+  });
+
+
+  $(document).ready(function(){
+
+    var activeId = $('.caseslide.swiper-slide-active').data('slide');   
+
+     var img = $('.caseslide.swiper-slide-active').data('img');
+    var bg = "linear-gradient(-45deg,rgba(33, 21, 44, 0.9), rgba(33, 21, 44, 0.9)),   url(assets/img/slides/home_case_studies/"+img;
+    console.log(bg);
+    $(".caseslide-thumb").removeClass('active');
+    $("#caseslideThumb"+activeId).addClass('active'); 
+    $(".section_casestudies").css("background-image", bg );
+  })
+
+  caseSwiper.on('slideChangeTransitionStart', function() { 
+    var activeId = $('.caseslide.swiper-slide-active').data('slide');    
+    var img = $('.caseslide.swiper-slide-active').data('img');
+    var bg = "linear-gradient(-45deg,rgba(33, 21, 44, 0.9), rgba(33, 21, 44, 0.9)),   url(assets/img/slides/home_case_studies/"+img;
+    $(".caseslide-thumb").removeClass('active');
+    $("#caseslideThumb"+activeId).addClass('active'); 
+    $(".section_casestudies").css("background-image", bg );
+
+
+   })
+
+
+  $('.caseslide-thumb').click(function(){ 
+    var activeThumbId = $(this).data('slide'); 
+    caseSwiper.slideTo(activeThumbId);
+  })
+ 
+ 
+
+  </script>
+ 
+
+
+
+            </section>
+
+            <section class="section section_benefits">
+                <div class="section__inner">
+                    
+
+                    
+
+
+
+<div class="equal-height">
+
+	<div class="half">
+		<div class="section__head">
+			
+			 <div class="section__head-title"> <h2>Benefits</h2></div> 
+		</div>
+                       
+                   
+
+
+		
+		<div  id="benefit1"	 class="benefit active">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url(http://127.0.0.1:4000/assets/img/icons/quality.png);"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">Quality</h3>
+					<div class="benefit__description"><p>Amazing quality of 3D Visualization makes a stunning impression. Your digital machine looks just like the real thing!</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text">Want to know more about our quality approach?</p> 
+				<a class="benefit__cta-btn cta" href="">More Info</a>				
+			</div>	
+			
+		</div>
+		
+		<div  id="benefit2"	 class="benefit ">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url(http://127.0.0.1:4000/assets/img/icons/security.png);"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">Security</h3>
+					<div class="benefit__description"><p>VISARD Virtual Vault provides advanced data security to keep your information and technologies safe.</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text">Want to know more about our security approach?</p> 
+				<a class="benefit__cta-btn cta" href="">More Info</a>				
+			</div>	
+			
+		</div>
+		
+		<div  id="benefit3"	 class="benefit ">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url(http://127.0.0.1:4000/assets/img/icons/accessibility.png);"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">Accessibility</h3>
+					<div class="benefit__description"><p>Location, time, and device: forget about such limitations. VISARD 3D Visualization Platform solutions are available anytime and everywhere!</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text">Want to know more about our pricing models?</p> 
+				<a class="benefit__cta-btn cta" href="">More Info</a>				
+			</div>	
+			
+		</div>
+		
+		<div  id="benefit4"	 class="benefit ">
+			<div class="equal-height">			
+				<div class="benefit__icon" style="background-image:url(http://127.0.0.1:4000/assets/img/icons/pricing.png);"></div>
+				<div class="benefit__text">
+					<h3 class="benefit__title">Pricing</h3>
+					<div class="benefit__description"><p>Innovative pricing model allows customers to see the approximate project budget right away and split it into payment periods.</p></div>
+				</div>
+			
+			
+
+			</div>
+			<div class="benefit__footer">
+				<p class="benefit__cta-text">Want to know more about our pricing models?</p> 
+				<a class="benefit__cta-btn cta" href="../pricing">More Info</a>				
+			</div>	
+			
+		</div>
+		
+
+</div>
+
+
+		<div  class="benefits half">
+			<div class="benefits__inner">
+				<h3 class="benefits__title">Our Benefits</h3>
+				<ul class="benefits__list">
+				
+					<li data-link="1"	 class="benefits__item  active">Quality</li>
+				
+					<li data-link="2"	 class="benefits__item  ">Security</li>
+				
+					<li data-link="3"	 class="benefits__item  ">Accessibility</li>
+				
+					<li data-link="4"	 class="benefits__item  ">Pricing</li>
+				
+				</ul>
+			</div>
+		</div>
+
+</div>
+
+
+<script>
+
+	$( document ).ready(function() {
+    	$('.benefits__item').click(function(){ 
+			var ident = $(this).data( "link" ); 
+			 $('.benefits__item').removeClass('active');
+			 $(this).addClass('active');			 
+			 $('.benefit').removeClass('active');
+			 var id = '#benefit'+ident;
+			 $(id).addClass('active');
+		}) 
+	});
+	
+	
+
+
+
+
+
+
+
+</script> 
+                </div>
+            </section>  
+
+            <section class="section section_blue section_hiw">
+                <div class="section__inner"> 
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>How It Works</h2></div>
+                    </div>
+
+                    <div class="hiw__infographic">
+
+                        <div class="hiw__center">   
+                                <div class="hiw__step">
+                                    <h3>Your Data Input</h3>
+                                    <p>Blueprints, fotos, videos and 3D model files about the object.</p>
+                                    <div class="hiw__icons hiw__icons_cad"></div>
+                                    <img src="assets/img/icons/data-input.png"   class="icon">
+                                </div>  
+
+                                <div class="hiw__arrow"><span class="hiw__arrow-icon hiw__arrow-icon_down"></span></div>
+
+                                <div class="hiw__step hiw__step_work">
+                                    <img src="assets/img/icons/work.png"   class="icon ">
+                                    <h3>Work Process</h3>
+                                    <p>We provide high-quality 3D modeling, visualization, animation and programming</p>
+                                    <div class="hiw__icons hiw__icons_work"></div>
+                                </div>
+
+                        </div>
+
+
+                        <div class="hiw__left">
+
+                                <div class="hiw__step hiw__step_outlined">
+                                    <h3>web 3d <br/>Showroom</h3>
+                                    <img src="assets/img/icons/html.png"   class="icon">
+                                    <p>Embed provided HTML code to your website</p>
+                                    <div class="hiw__icons hiw__icons_browsers"></div>
+                                    <div class="hiw__cta"><a href="" class="cta cta_white">See Demo</a></div>
+                                </div>  
+
+
+                         </div> 
+
+
+
+                        <div class="hiw__right">
+
+                                <div class="hiw__step hiw__step_outlined">
+                                    <h3>VR <br>Software</h3>
+                                    <img src="assets/img/icons/vr-software.png"   class="icon">
+                                    <p>Install provided VR software on your computer</p>
+                                    <div class="hiw__icons hiw__icons_vr"></div>
+                                    <div class="hiw__cta"><a href="" class="cta cta_white">See Demo</a></div>
+                                </div>  
+
+
+                         </div> 
+
+                    </div> 
+                       
+                    </div>
+                    
+                </div>
+            </section>
+
+             
+            <section class="section section_knowledge">
+                <div class="section__inner"> 
+                    <div class="section__head equal-height">
+                        <div class="section__head-title"> <h2>Knowledge Base</h2></div>
+                    </div>
+                    <div class="knowledge clearfix">	
+                        <div class="knowledge__posts">
+                        		<h3>Visard VR Blog</h3>	
+
+
+                                 
+                                
+
+                                <a href="/2018/10/31/5-reasons-vr-training.html" class="post">
+                                    <article class="post__inner">
+
+                                        
+                                        <div class="post__img" style="background-image:url(/assets/img/posts/ucb-robot-vr.jpg)"></div>
+                                        
+                                         
+                                        <time class="post__date" datetime="2018-10-31 22:21:43 +0200">10 / 31</time>
+                                        <h2 class="post__title">5 Reasons You Should Use VR Training</h2>                                    
+                                    </article> 
+                                </a>
+
+                                
+                                 
+                                
+
+                                <a href="/2018/09/11/virtual-trade-show.html" class="post">
+                                    <article class="post__inner">
+
+                                        
+                                        <div class="post__img post__img_default"  ></div>
+                                        
+                                         
+                                        <time class="post__date" datetime="2018-09-11 00:00:00 +0300">09 / 11</time>
+                                        <h2 class="post__title">Virtual Trade show: Science-Fiction or near future?</h2>                                    
+                                    </article> 
+                                </a>
+
+                                
+                                 
+
+                                <p class="knowledge__blog-link"><a href="http://127.0.0.1:4000/blog">Read more in our Blog</a></p>
+
+                        </div>
+                       
+                        <div class="knowledge__materials">
+                        		<h3>Materials</h3>	 
+
+                                <div class="knowledge__material"></div>
+                                <div class="knowledge__material"></div>
+
+                                <div class="knowledge__subscription">
+                                    <div class="subscription subscription_knowledge">
+	<p  class="subscription__title"> Sign up for material updates </p>
+
+	<label  class="subscription__label clearfix" for="emailSubscription">
+		<span>Your <b>Email</b></span>
+		<input class="subscription__input form__input" type="email" id="emailSubscription">
+	</label>
+	<div class="subscription__submit-wrapper">
+		<a class="subscription__submit">SUBSCRIBE</a>		
+	</div>
+
+
+</div>
+                                </div>
+
+
+                        </div>
+
+                     </div>
+                       
+                    </div>
+                    
+                </div>
+            </section> 
+             <section class="section section_clients">
+	<div class="section__inner">
+
+		<div class="section__head">			
+			 <div class="section__head-title"> <h2>Our Clients</h2></div> 
+		</div>
+
+		<div class="testimonials">
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/css/swiper.css">
+
+<!-- Slider main container -->
+<div class="swiper-container swiper-container_client">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper" >
+        <!-- Slides -->
+        
+        <div class="swiper-slide">
+			<figure class="testimonial">
+			    <blockquote class="testimonial__quote">Our customers experience our products on our website as realistically as on-site in a store thanks to VISARD’s 3D Renderings.</blockquote>
+			    <footer class="testimonial__footer">
+			        <cite class="testimonial__author">Marc Wallowy</cite>,
+			        <br/><cite class="testimonial__position">Global Marketing Director EMEA,</cite>
+			        <br/><cite class="testimonial__company">Canadian Solar Inc.</cite>
+			    </footer>
+			</figure>
+			 
+
+        </div>
+        
+        <div class="swiper-slide">
+			<figure class="testimonial">
+			    <blockquote class="testimonial__quote">We see ourselves as an innovative media company. VISARD’s technology supports this claim. In cooperation with VISARD we will bring the first 3D VR content to German television in 2016.</blockquote>
+			    <footer class="testimonial__footer">
+			        <cite class="testimonial__author">Jens Schmohl</cite>,
+			        <br/><cite class="testimonial__position">Editor In Chief,</cite>
+			        <br/><cite class="testimonial__company">ProSiebenSat.1 Media SE</cite>
+			    </footer>
+			</figure>
+			 
+
+        </div>
+        
+        <div class="swiper-slide">
+			<figure class="testimonial">
+			    <blockquote class="testimonial__quote">By using the 3D goggles at trade shows, we economise on the substantial transport costs for our machines. Already after two trade shows the investment is amortised. Last but not least, the use of this solutions reflects Seidenaders positioning as an industry-leading innovator.</blockquote>
+			    <footer class="testimonial__footer">
+			        <cite class="testimonial__author">Christian Gamperl</cite>,
+			        <br/><cite class="testimonial__position">Head of Marketing,</cite>
+			        <br/><cite class="testimonial__company">Seidenader Maschinenbau GmbH</cite>
+			    </footer>
+			</figure>
+			 
+
+        </div>
+        
+ 
+ 
+    </div>
+ 
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+</div>
+
+
+
+
+
+
+<script src="/assets/js/swiper.min.js"></script>
+
+<script>
+ 
+
+  var clientSwiper = new Swiper ('.swiper-container_client', {
+ 
+    loop: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+
+ 
+  });
+  </script>
+
+		
+		</div>
+
+    <div class="client-logos"></div>
+
+	</div>
+</section>
+             <footer class="section section_footer">
+	<div class="section__inner clearfix">
+
+		<div class="footer-column footer-column_adress">
+			<div class="footer-column__logo"></div>
+			<p class="footer-column__adress">Firkenweg 7<br>85774 Unterföhring, DE</p>
+			<p class="footer-column__adress">Phone: <a href="tel:+49022116535570">+49 (0) 221 165 355 70</a></p>
+			<p class="footer-column__adress">Fax: <a href="tel:+49022116535579">+49 (0) 221 165 355 79</a></p>
+			<p class="footer-column__adress">Email: <a href="mailto:info@visard.com">info@visard.com</a></p>
+			<p> <div class="social">
+	<a href="https://www.facebook.com/visardcompany/" class="social__link"><i class="fab fa-facebook-f"></i></a>
+	<a href="" class="social__link"><i class="fab fa-twitter"></i></a>
+	<a href="" class="social__link"><i class="fab fa-linkedin-in"></i></a>
+	<a href="" class="social__link"><i class="fab fa-youtube"></i></a>
+	<a href="" class="social__link"><i class="fab fa-google-plus-g"></i></a>
+	<a href="" class="social__link"><i class="fab fa-vimeo-v"></i></a>
+</div> </p>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Company</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="">Services</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/pricing">Pricing</a></li>
+				<li class="footer-column__link"><a href="">About Us</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/blog">Blog</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/contacts">Contacts</a></li>
+				<li class="footer-column__link"><a href="">Impressum</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Industry Solutions</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/pharmaceutical">Pharmaceutical</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/grinding">Grinding</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/packaging">Packaging</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/cosmetics">Cosmetics</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/automotive">Automotive</a></li>
+				<li class="footer-column__link"><a href="http://127.0.0.1:4000/industries/robotics">Robotics</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-column">  
+			<h4 class="footer-column__heading">Useful Links</h4>
+			<ul class="footer-column__menu">
+				<li class="footer-column__link"><a href="">How it Works</a></li>
+				<li class="footer-column__link"><a href="">Become a Partner</a></li>
+				<li class="footer-column__link"><a href="">Use Cases</a></li>
+				<li class="footer-column__link"><a href="">Sitemap</a></li>
+				<li class="footer-column__link"><a href="">FAQ</a></li>
+			</ul>
+		</div>
+
+		<div class="footer-copyright">Copyright © 2018 VISARD. All Rights Reserved</div>
+
+
+
+		
+	</div>
+</footer> 
+ 
+
+                 
+ 
+        </main>
+ 
+
+
+    </body>
+</html>
