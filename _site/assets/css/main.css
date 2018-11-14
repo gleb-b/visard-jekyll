@@ -855,9 +855,6 @@ main {
   /*padding-right: 50%;*/
   box-sizing: border-box; }
 
-.article__content h3 + p {
-  margin-top: 4em; }
-
 .article__content img {
   margin: 1em 0;
   border: 72px solid #fff;
