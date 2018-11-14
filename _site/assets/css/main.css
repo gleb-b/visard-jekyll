@@ -416,6 +416,27 @@ h3 {
 .nav__menu-item:hover {
   color: #55ABFD; }
 
+.nav__menu-item-children {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: .3s; }
+
+.nav__menu-item-children a {
+  display: block;
+  transition: .3s;
+  background: #fff;
+  color: #454545;
+  padding: 0 1em;
+  margin-left: -1em; }
+
+.nav__menu-item-children a:hover {
+  color: #55ABFD; }
+
+.nav__menu-item_parent:hover .nav__menu-item-children {
+  opacity: 1;
+  pointer-events: auto; }
+
 /* COLORS */
 /* TYPOGRAPHY */
 main {

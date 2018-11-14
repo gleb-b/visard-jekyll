@@ -5,7 +5,13 @@
 		</div>
 
 		<div class="nav__menu">
-			<div class="nav__menu-item"><a href="{{ site.url }}#solutions">Solutions</a></div>
+			<div class="nav__menu-item nav__menu-item_parent">
+				<a href="{{ site.url }}#solutions">Solutions</a>
+				<div class="nav__menu-item-children">					
+					<a href="{{ site.url }}/web3d/">Web3d Showroom</a>					
+					<a href="{{ site.url }}/vr/">VR Showroom</a>					
+				</div>
+			</div>
 			<div class="nav__menu-item"><a href="{{ site.url }}/pricing">Pricing</a></div>
 			<div class="nav__menu-item"><a href="{{ site.url }}/blog">Blog</a></div>
 			<div class="nav__menu-item"><a href="{{ site.url }}/contacts">Contacts</a></div>
