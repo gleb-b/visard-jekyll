@@ -913,7 +913,8 @@ main {
   font-weight: 100; }
 
 .footer-column {
-  width: 22.2%;
+  /*width: 22.2%; */
+  width: 33.3%;
   float: left;
   box-sizing: border-box;
   padding-right: 2em; }
