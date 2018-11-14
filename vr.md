@@ -42,6 +42,7 @@ hero:
     subtitle: " <b>Start VR Project</b> <br>from 999€"
     cta: "Contact Us"
     cta-link: "../contacts"
+    video: "vr-showroom.mp4"
 
 
 
