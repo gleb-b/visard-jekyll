@@ -38,6 +38,7 @@ hero:
     subtitle: "<b>VR</b> | <b>AR</b> | <b>Web3D</b> <br>solutions for enterprises"
     cta: "Contact Us"
     cta-link: "./contacts"
+    video: "home.mp4"
 
 
 

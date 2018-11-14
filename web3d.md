@@ -38,6 +38,7 @@ hero:
     subtitle: " <b>Key Lead Generation Element <br>for Your Website</b>"
     cta: "Contact Us"
     cta-link: "../contacts"
+    video: "web-showroom.mp4"
 
 
 
