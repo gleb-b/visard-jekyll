@@ -1,6 +1,6 @@
 ---
 layout: web3d
-title: Web 3d Showroom
+title: Web 3D Showroom
 permalink: /web3d/
 
 benefits-title: "Advantages"
@@ -34,11 +34,12 @@ benefits:
     cta-href: #
 
 hero: 
-    title: "Web3d <br>Showroom"
+    title: "Web3D <br>Showroom"
     subtitle: " <b>Key Lead Generation Element <br>for Your Website</b>"
     cta: "Contact Us"
     cta-link: "../contacts"
     video: "web-showroom.mp4"
+    looped: true
 
 
 

@@ -820,6 +820,7 @@ box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.2);
 	display: table;
 	color: #fff;
 	background-color: #21152C;
+    position: relative;
 }
 
 .hero__bg {
@@ -963,7 +964,7 @@ display: block;
     font-weight: 300;
         line-height: 150%;
     margin-top: -5px;
-    text-align: right;
+    text-align: center;
     display: block;
     outline: none;
 }
@@ -982,18 +983,27 @@ display: block;
 }
 
 .form__submit {
-    font-size: $font36; 
-    font-weight: bold;
+    font-size: $font24; 
+    font-weight: 300;
     padding: 10px;
     margin: 1em 0;
     display: inline-block;
-    cursor: pointer;
     transition: .3s;
+        background: none;
+    border: none;
+    color: #fff;
+    max-width: 100%;
 }
 
-.form__submit:hover {
+.form__submit:not([disabled]) {
+     font-size: $font36; 
+    font-weight: bold;
+}
 
-    box-shadow: 0px 8px 24.5px rgba(0, 0, 0, 0.25);
+.form__submit:not([disabled]):hover {
+
+    box-shadow: 0px 8px 24.5px rgba(0, 0, 0, 0.25);    
+    cursor: pointer;
 }
 
 
