@@ -34,7 +34,7 @@ benefits:
     cta-href: "../pricing"
 
 hero: 
-    title: "Industrial <br>3D Visualization <br>platform"
+    title: "Industrial <br>3D Visualization <br>Platform"
     subtitle: "<b>VR</b> | <b>AR</b> | <b>Web3D</b> <br>solutions for enterprises"
     cta: "Contact Us"
     cta-link: "./contacts"

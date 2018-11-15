@@ -16,7 +16,7 @@
 			<div class="nav__menu-item nav__menu-item_parent">
 				<a href="http://localhost:4000#solutions">Solutions</a>
 				<div class="nav__menu-item-children">					
-					<a href="http://localhost:4000/web3d/">Web3d Showroom</a>					
+					<a href="http://localhost:4000/web3d/">Web3D Showroom</a>					
 					<a href="http://localhost:4000/vr/">VR Showroom</a>					
 				</div>
 			</div>
@@ -65,30 +65,59 @@
 </div>
 
 <div class="contacts__form">
-<form class="form">
+<form id="#contactForm" class="form" action="https://formspree.io/gleb.bero@comberry.com" method="POST">
 
 	<h3 class="form__title">Contact Us</h3>
 	
 	<label class="form__label clearfix" for="nameInput">
 		<span class="form__label-title">Your <b>Name</b></span>
-		<input class="form__input form__input_name" type="text" id="nameInput" />
+		<input class="form__input form__input_name" type="text" id="nameInput" name="Name" />
 	</label>
 
 	<label class="form__label clearfix" for="emailInput">
 		<span>Your <b>Email</b></span>
-		<input class="form__input form__input_email" type="email" id="emailInput" />
+		<input class="form__input form__input_email" type="email" id="emailInput" name="Email" />
 	</label>
 
 	<label class="form__label clearfix" for="messageInput">
 		<span>Your <b>Message</b></span>
 	</label>	
-	<textarea class="form__textarea" rows="6" cols="25" id="messageInput">
+	<textarea class="form__textarea" rows="6" cols="25" id="messageInput" name="Message">
 	
 	</textarea>
+	<input id="return" type="hidden" name="_next" value="" />
 
-	<a class="form__submit"><i class="fas fa-paper-plane"></i> SEND</a>
+		<input disabled="" class="form__submit" type="submit" value="Please, fill out all fields" alt="" />
 
 </form>
+
+<script>
+	$('.form__input_name').change(function(){
+		var userName =  $('#nameInput').val();
+		var returnUrl = 'http://localhost:4000/thanks#' +  userName.replace(/\s/g, '--');  
+		$('#return').val(returnUrl); 
+	})
+
+	$('.form__input').change(function(){
+		var isValid;
+		$("input").each(function() {
+   			var element = $(this);
+   			if (element.val() == "") {
+       			isValid = false;
+   			}
+		});
+		console.log(isValid);
+		if(isValid!=false) {
+        	$('.form__submit').val('SEND');
+        	$('.form__submit').prop( 'disabled', false );
+    	}
+    	else {
+        	$('.form__submit').val('Please, fill out all fields');
+        	$('.form__submit').prop( 'disabled', true );    		
+    	}
+	})
+
+</script>
 </div>
 </div>
 

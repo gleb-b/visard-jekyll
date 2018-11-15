@@ -43,6 +43,7 @@ hero:
     cta: "Contact Us"
     cta-link: "../contacts"
     video: "vr-showroom.mp4"
+    looped: true
 
 
 
